@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 export default function CallbackPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     const supabase = createClient();
@@ -14,12 +15,27 @@ export default function CallbackPage() {
       return;
     }
 
-    supabase.auth.onAuthStateChange((event) => {
-      if (event === "SIGNED_IN") {
-        router.push("/dashboard");
-      }
-    });
-  }, [router]);
+    // Handle the OAuth code exchange
+    const code = searchParams.get("code");
+    if (code) {
+      supabase.auth.exchangeCodeForSession(code).then(({ error }) => {
+        if (error) {
+          console.error("Auth error:", error);
+          router.push("/login");
+        } else {
+          router.push("/dashboard");
+        }
+      });
+    } else {
+      // Fallback: listen for auth state change (hash fragment flow)
+      const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
+        if (event === "SIGNED_IN") {
+          router.push("/dashboard");
+        }
+      });
+      return () => subscription.unsubscribe();
+    }
+  }, [router, searchParams]);
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
