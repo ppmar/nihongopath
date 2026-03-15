@@ -1,0 +1,90 @@
+[
+  {
+    "id": "n1-grammar-001",
+    "pattern": "〜をものともせず(に)",
+    "meaning": "Sans se soucier de / malgré",
+    "explanation": "Exprime le fait de ne pas se laisser intimider par une difficulté ou un obstacle. Souvent utilisé pour louer le courage ou la détermination.",
+    "examples": [
+      { "jp": "彼は批判をものともせず、自分の信念を貫いた。", "reading": "かれはひはんをものともせず、じぶんのしんねんをつらぬいた。", "fr": "Sans se soucier des critiques, il a maintenu ses convictions." }
+    ],
+    "notes": "Registre littéraire et soutenu. Toujours positif (courage, détermination).",
+    "related": ["〜にもかかわらず", "〜を顧みず"]
+  },
+  {
+    "id": "n1-grammar-002",
+    "pattern": "〜に至っては",
+    "meaning": "En ce qui concerne (cas extrême)",
+    "explanation": "Introduit un cas extrême dans une série de faits, souvent négatif. Le cas cité est le pire ou le plus marquant.",
+    "examples": [
+      { "jp": "部下の態度には問題があるが、部長に至っては全く仕事をしない。", "reading": "ぶかのたいどにはもんだいがあるが、ぶちょうにいたってはまったくしごとをしない。", "fr": "L'attitude des subordonnés pose problème, mais pour ce qui est du directeur, il ne travaille pas du tout." }
+    ],
+    "notes": "Souvent utilisé pour exprimer l'exaspération ou l'indignation.",
+    "related": ["〜はおろか", "〜に至るまで"]
+  },
+  {
+    "id": "n1-grammar-003",
+    "pattern": "〜たりとも〜ない",
+    "meaning": "Pas même un seul / pas le moindre",
+    "explanation": "Nie catégoriquement même la plus petite quantité. Exprime une interdiction ou une impossibilité absolue.",
+    "examples": [
+      { "jp": "一秒たりとも無駄にできない。", "reading": "いちびょうたりともむだにできない。", "fr": "On ne peut pas gaspiller ne serait-ce qu'une seconde." }
+    ],
+    "notes": "Toujours précédé d'un compteur avec 一 (un). Très emphatique.",
+    "related": ["〜すら〜ない", "〜だに〜ない"]
+  },
+  {
+    "id": "n1-grammar-004",
+    "pattern": "〜をおいて(ほかに)ない",
+    "meaning": "Il n'y a que / nul autre que",
+    "explanation": "Exprime qu'il n'existe aucune autre option ou personne appropriée que celle mentionnée.",
+    "examples": [
+      { "jp": "このプロジェクトを任せられるのは、彼をおいてほかにいない。", "reading": "このプロジェクトをまかせられるのは、かれをおいてほかにいない。", "fr": "Il n'y a personne d'autre que lui à qui confier ce projet." }
+    ],
+    "notes": "Très formel. Souvent utilisé dans des déclarations solennelles.",
+    "related": ["〜しかない", "〜ほかならない"]
+  },
+  {
+    "id": "n1-grammar-005",
+    "pattern": "〜まじき",
+    "meaning": "Impardonnable pour / indigne de",
+    "explanation": "Exprime qu'un comportement est inacceptable pour quelqu'un dans un certain rôle ou position. Forme littéraire archaïque.",
+    "examples": [
+      { "jp": "医者にあるまじき発言だ。", "reading": "いしゃにあるまじきはつげんだ。", "fr": "C'est une déclaration indigne d'un médecin." }
+    ],
+    "notes": "する → するまじき. ある → あるまじき. Très formel, souvent dans la presse.",
+    "related": ["〜べきではない", "〜にあるまじき"]
+  },
+  {
+    "id": "n1-grammar-006",
+    "pattern": "〜ともなると / 〜ともなれば",
+    "meaning": "Quand on arrive au niveau de / lorsqu'il s'agit de",
+    "explanation": "Indique que lorsqu'on atteint un certain niveau ou statut, des conséquences naturelles s'ensuivent.",
+    "examples": [
+      { "jp": "社長ともなると、責任は非常に重い。", "reading": "しゃちょうともなると、せきにんはひじょうにおもい。", "fr": "Quand on est PDG, les responsabilités sont extrêmement lourdes." }
+    ],
+    "notes": "Implique que le résultat est naturel ou attendu à ce niveau.",
+    "related": ["〜ともなれば", "〜にもなると"]
+  },
+  {
+    "id": "n1-grammar-007",
+    "pattern": "〜ないものでもない",
+    "meaning": "Il n'est pas impossible de / ce n'est pas exclu que",
+    "explanation": "Double négation qui exprime une possibilité atténuée. Le locuteur admet une possibilité sans s'y engager.",
+    "examples": [
+      { "jp": "条件次第では、引き受けないものでもない。", "reading": "じょうけんしだいでは、ひきうけないものでもない。", "fr": "Selon les conditions, il n'est pas impossible que j'accepte." }
+    ],
+    "notes": "Expression prudente et nuancée. Montre une ouverture réticente.",
+    "related": ["〜なくもない", "〜ないこともない"]
+  },
+  {
+    "id": "n1-grammar-008",
+    "pattern": "〜が早いか",
+    "meaning": "Dès que / à peine... que",
+    "explanation": "Exprime une action qui suit immédiatement une autre, sans le moindre délai. L'action est souvent surprenante ou impulsive.",
+    "examples": [
+      { "jp": "ベルが鳴るが早いか、生徒たちは教室を飛び出した。", "reading": "ベルがなるがはやいか、せいとたちはきょうしつをとびだした。", "fr": "Dès que la cloche a sonné, les élèves se sont précipités hors de la classe." }
+    ],
+    "notes": "Verbe dictionnaire + が早いか. L'action suivante est toujours au passé.",
+    "related": ["〜や否や", "〜なり"]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "n3-grammar-001",
+    "pattern": "〜ようにする",
+    "meaning": "Faire en sorte de",
+    "explanation": "Exprime un effort intentionnel pour adopter ou maintenir un comportement. Plus fort que 〜ようにしている qui décrit un effort continu.",
+    "examples": [
+      { "jp": "毎日野菜を食べるようにしている。", "reading": "まいにちやさいをたべるようにしている。", "fr": "Je fais en sorte de manger des légumes tous les jours." }
+    ],
+    "notes": "Souvent combiné avec 〜ている pour l'effort continu.",
+    "related": ["〜ようになる", "〜ことにする"]
+  },
+  {
+    "id": "n3-grammar-002",
+    "pattern": "〜ことになる",
+    "meaning": "Il a été décidé que / il s'avère que",
+    "explanation": "Exprime un résultat décidé par une force extérieure ou une circonstance, pas par la volonté du locuteur.",
+    "examples": [
+      { "jp": "来月から東京に転勤することになった。", "reading": "らいげつからとうきょうにてんきんすることになった。", "fr": "Il a été décidé que je serais muté à Tokyo le mois prochain." }
+    ],
+    "notes": "Contraste avec 〜ことにする (décision personnelle).",
+    "related": ["〜ことにする", "〜ようになる"]
+  },
+  {
+    "id": "n3-grammar-003",
+    "pattern": "〜として",
+    "meaning": "En tant que",
+    "explanation": "Indique un rôle, une fonction ou une capacité dans laquelle quelqu'un agit.",
+    "examples": [
+      { "jp": "彼は医者として働いている。", "reading": "かれはいしゃとしてはたらいている。", "fr": "Il travaille en tant que médecin." }
+    ],
+    "notes": "Peut aussi exprimer une hypothèse : 仮にとして (en supposant que).",
+    "related": ["〜にとって", "〜について"]
+  },
+  {
+    "id": "n3-grammar-004",
+    "pattern": "〜にとって",
+    "meaning": "Pour (du point de vue de)",
+    "explanation": "Exprime le point de vue ou la perspective d'une personne ou d'un groupe concernant un jugement de valeur.",
+    "examples": [
+      { "jp": "学生にとって、この試験は難しい。", "reading": "がくせいにとって、このしけんはむずかしい。", "fr": "Pour les étudiants, cet examen est difficile." }
+    ],
+    "notes": "Suivi généralement d'un adjectif ou d'un jugement.",
+    "related": ["〜として", "〜に対して"]
+  },
+  {
+    "id": "n3-grammar-005",
+    "pattern": "〜に対して",
+    "meaning": "Envers / par rapport à / en contraste avec",
+    "explanation": "Indique la cible d'un sentiment ou d'une action, ou un contraste entre deux éléments.",
+    "examples": [
+      { "jp": "先生に対して失礼なことを言った。", "reading": "せんせいにたいしてしつれいなことをいった。", "fr": "Il a dit quelque chose d'impoli envers le professeur." }
+    ],
+    "notes": "Peut aussi exprimer un contraste : A に対して B (A alors que B).",
+    "related": ["〜にとって", "〜について"]
+  },
+  {
+    "id": "n3-grammar-006",
+    "pattern": "〜ばかり",
+    "meaning": "Ne faire que / rien que / venir juste de",
+    "explanation": "Exprime une action répétitive exclusive ou, avec た + ばかり, une action récemment accomplie.",
+    "examples": [
+      { "jp": "彼はゲームばかりしている。", "reading": "かれはゲームばかりしている。", "fr": "Il ne fait que jouer aux jeux vidéo." },
+      { "jp": "日本に来たばかりです。", "reading": "にほんにきたばかりです。", "fr": "Je viens d'arriver au Japon." }
+    ],
+    "notes": "たばかり = action récente. Verbe dictionnaire + ばかり = ne faire que.",
+    "related": ["〜だけ", "〜ところ"]
+  },
+  {
+    "id": "n3-grammar-007",
+    "pattern": "〜わけがない",
+    "meaning": "Il est impossible que / il n'y a aucune raison que",
+    "explanation": "Nie catégoriquement une possibilité. Plus fort que 〜はずがない.",
+    "examples": [
+      { "jp": "彼がそんなことをするわけがない。", "reading": "かれがそんなことをするわけがない。", "fr": "Il est impossible qu'il fasse une telle chose." }
+    ],
+    "notes": "Forme très catégorique. Pour être moins direct, utiliser 〜はずがない.",
+    "related": ["〜はずがない", "〜わけにはいかない"]
+  },
+  {
+    "id": "n3-grammar-008",
+    "pattern": "〜わけにはいかない",
+    "meaning": "On ne peut pas se permettre de",
+    "explanation": "Exprime qu'une action est impossible pour des raisons sociales, morales ou pratiques.",
+    "examples": [
+      { "jp": "約束したから、行かないわけにはいかない。", "reading": "やくそくしたから、いかないわけにはいかない。", "fr": "Puisque j'ai promis, je ne peux pas ne pas y aller." }
+    ],
+    "notes": "Avec la forme négative : 〜ないわけにはいかない = on ne peut pas ne pas (obligation morale).",
+    "related": ["〜わけがない", "〜ざるを得ない"]
+  },
+  {
+    "id": "n3-grammar-009",
+    "pattern": "〜ついでに",
+    "meaning": "En profiter pour / tant qu'on y est",
+    "explanation": "Indique qu'on profite d'une occasion pour faire une action secondaire.",
+    "examples": [
+      { "jp": "買い物のついでに、銀行に寄った。", "reading": "かいもののついでに、ぎんこうによった。", "fr": "En allant faire les courses, j'en ai profité pour passer à la banque." }
+    ],
+    "notes": "Nom + の + ついでに ou verbe dictionnaire/passé + ついでに.",
+    "related": ["〜がてら"]
+  },
+  {
+    "id": "n3-grammar-010",
+    "pattern": "〜ざるを得ない",
+    "meaning": "Ne pas pouvoir s'empêcher de / être obligé de",
+    "explanation": "Exprime une obligation inévitable malgré la réticence. Registre formel.",
+    "examples": [
+      { "jp": "証拠がある以上、認めざるを得ない。", "reading": "しょうこがあるいじょう、みとめざるをえない。", "fr": "Puisqu'il y a des preuves, on ne peut qu'admettre." }
+    ],
+    "notes": "する → せざるを得ない. Autres verbes : ない stem + ざるを得ない.",
+    "related": ["〜わけにはいかない", "〜なければならない"]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "n2-grammar-001",
+    "pattern": "〜に伴って / 〜に伴い",
+    "meaning": "Accompagné de / en même temps que",
+    "explanation": "Exprime que deux choses changent ou se produisent ensemble. Souvent utilisé pour des tendances ou des phénomènes liés.",
+    "examples": [
+      { "jp": "人口の増加に伴って、住宅問題が深刻になった。", "reading": "じんこうのぞうかにともなって、じゅうたくもんだいがしんこくになった。", "fr": "Avec l'augmentation de la population, le problème du logement est devenu grave." }
+    ],
+    "notes": "Registre formel. Utilisé dans les écrits académiques et les nouvelles.",
+    "related": ["〜につれて", "〜とともに"]
+  },
+  {
+    "id": "n2-grammar-002",
+    "pattern": "〜に限らず",
+    "meaning": "Non limité à / pas seulement",
+    "explanation": "Indique que quelque chose ne se limite pas au cas mentionné mais s'applique plus largement.",
+    "examples": [
+      { "jp": "日本に限らず、世界中で環境問題は深刻だ。", "reading": "にほんにかぎらず、せかいじゅうでかんきょうもんだいはしんこくだ。", "fr": "Pas seulement au Japon, les problèmes environnementaux sont graves dans le monde entier." }
+    ],
+    "notes": "Souvent suivi de も pour élargir le champ.",
+    "related": ["〜だけでなく", "〜のみならず"]
+  },
+  {
+    "id": "n2-grammar-003",
+    "pattern": "〜上で / 〜上の",
+    "meaning": "En ce qui concerne / après avoir",
+    "explanation": "Deux usages : 1) Dans le domaine de (名詞 + 上で). 2) Après avoir fait (動詞た形 + 上で).",
+    "examples": [
+      { "jp": "よく考えた上で、決めてください。", "reading": "よくかんがえたうえで、きめてください。", "fr": "Décidez après y avoir bien réfléchi." },
+      { "jp": "仕事の上で大切なことだ。", "reading": "しごとのうえでたいせつなことだ。", "fr": "C'est une chose importante dans le cadre du travail." }
+    ],
+    "notes": "上で après verbe passé = après avoir fait. 上で/上の après nom = dans le domaine de.",
+    "related": ["〜において", "〜にあたって"]
+  },
+  {
+    "id": "n2-grammar-004",
+    "pattern": "〜たところ",
+    "meaning": "Quand j'ai (fait)... il s'est avéré que",
+    "explanation": "Exprime un résultat inattendu ou une découverte suite à une action. Le résultat est souvent une surprise.",
+    "examples": [
+      { "jp": "調べたところ、原因がわかった。", "reading": "しらべたところ、げんいんがわかった。", "fr": "Quand j'ai vérifié, j'ai trouvé la cause." }
+    ],
+    "notes": "Ne pas confondre avec 〜ところ (moment/point). Ici, le passé + ところ = résultat d'enquête.",
+    "related": ["〜ところ", "〜たら"]
+  },
+  {
+    "id": "n2-grammar-005",
+    "pattern": "〜からには / 〜からは",
+    "meaning": "Puisque / maintenant que (avec détermination)",
+    "explanation": "Exprime une condition qui entraîne une obligation ou une détermination forte. Plus fort que から.",
+    "examples": [
+      { "jp": "引き受けたからには、最後までやる。", "reading": "ひきうけたからには、さいごまでやる。", "fr": "Puisque je l'ai accepté, j'irai jusqu'au bout." }
+    ],
+    "notes": "Suivi souvent d'expressions de volonté ou d'obligation.",
+    "related": ["〜以上は", "〜から"]
+  },
+  {
+    "id": "n2-grammar-006",
+    "pattern": "〜に関して / 〜に関する",
+    "meaning": "Concernant / au sujet de",
+    "explanation": "Introduit le sujet ou le thème d'une discussion. Plus formel que について.",
+    "examples": [
+      { "jp": "環境問題に関して、議論が行われた。", "reading": "かんきょうもんだいにかんして、ぎろんがおこなわれた。", "fr": "Un débat a eu lieu concernant les problèmes environnementaux." }
+    ],
+    "notes": "に関する + nom (attribut). に関して + phrase (adverbial).",
+    "related": ["〜について", "〜に対して"]
+  },
+  {
+    "id": "n2-grammar-007",
+    "pattern": "〜一方で",
+    "meaning": "D'un autre côté / tandis que",
+    "explanation": "Présente un contraste ou un autre aspect d'une situation. Peut exprimer une coexistence de deux faits.",
+    "examples": [
+      { "jp": "経済は成長している一方で、格差も広がっている。", "reading": "けいざいはせいちょうしているいっぽうで、かくさもひろがっている。", "fr": "Tandis que l'économie croît, les inégalités s'élargissent aussi." }
+    ],
+    "notes": "Peut être utilisé pour les contraires comme pour les compléments.",
+    "related": ["〜反面", "〜に対して"]
+  },
+  {
+    "id": "n2-grammar-008",
+    "pattern": "〜べきだ / 〜べきではない",
+    "meaning": "Devrait / ne devrait pas (obligation morale)",
+    "explanation": "Exprime un devoir moral ou une recommandation forte. Plus fort que 〜ほうがいい.",
+    "examples": [
+      { "jp": "約束は守るべきだ。", "reading": "やくそくはまもるべきだ。", "fr": "On devrait tenir ses promesses." },
+      { "jp": "人を見た目で判断すべきではない。", "reading": "ひとをみためではんだんすべきではない。", "fr": "On ne devrait pas juger les gens sur leur apparence." }
+    ],
+    "notes": "する → すべき (ou するべき, les deux sont acceptés).",
+    "related": ["〜はずだ", "〜ものだ"]
+  },
+  {
+    "id": "n2-grammar-009",
+    "pattern": "〜をきっかけに",
+    "meaning": "À l'occasion de / en prenant prétexte de",
+    "explanation": "Indique un événement déclencheur qui a provoqué un changement ou une action.",
+    "examples": [
+      { "jp": "留学をきっかけに、日本語を勉強し始めた。", "reading": "りゅうがくをきっかけに、にほんごをべんきょうしはじめた。", "fr": "C'est à l'occasion de mes études à l'étranger que j'ai commencé à étudier le japonais." }
+    ],
+    "notes": "L'événement déclencheur est souvent positif ou neutre.",
+    "related": ["〜を契機に", "〜がきっかけで"]
+  },
+  {
+    "id": "n2-grammar-010",
+    "pattern": "〜どころか",
+    "meaning": "Loin de / bien au contraire",
+    "explanation": "Nie fortement la première proposition et affirme quelque chose de plus extrême. Exprime un résultat contraire aux attentes.",
+    "examples": [
+      { "jp": "休むどころか、前より忙しくなった。", "reading": "やすむどころか、まえよりいそがしくなった。", "fr": "Loin de me reposer, je suis devenu encore plus occupé qu'avant." }
+    ],
+    "notes": "La deuxième partie est souvent à l'opposé de ce qu'on attendait.",
+    "related": ["〜ばかりか", "〜のみならず"]
+  }
+]

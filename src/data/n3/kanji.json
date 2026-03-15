@@ -1,0 +1,282 @@
+[
+  {
+    "kanji": "政",
+    "meanings": ["politique", "gouvernement"],
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["まつりごと"],
+    "strokes": 9,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "政治", "reading": "せいじ", "meaning": "politique" },
+      { "word": "政府", "reading": "せいふ", "meaning": "gouvernement" }
+    ],
+    "radical": "攵",
+    "mnemonique": "Frapper correctement pour gouverner avec justice"
+  },
+  {
+    "kanji": "議",
+    "meanings": ["discussion", "délibération"],
+    "onyomi": ["ギ"],
+    "kunyomi": [],
+    "strokes": 20,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "会議", "reading": "かいぎ", "meaning": "réunion" },
+      { "word": "議論", "reading": "ぎろん", "meaning": "débat" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des paroles justes lors d'une délibération"
+  },
+  {
+    "kanji": "経",
+    "meanings": ["sutras", "passer par", "économie"],
+    "onyomi": ["ケイ", "キョウ"],
+    "kunyomi": ["へ.る", "た.つ"],
+    "strokes": 11,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "経済", "reading": "けいざい", "meaning": "économie" },
+      { "word": "経験", "reading": "けいけん", "meaning": "expérience" }
+    ],
+    "radical": "糸",
+    "mnemonique": "Un fil tissé à travers le temps"
+  },
+  {
+    "kanji": "済",
+    "meanings": ["achevé", "économie", "sauver"],
+    "onyomi": ["サイ", "セイ"],
+    "kunyomi": ["す.む", "す.まない"],
+    "strokes": 11,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "経済", "reading": "けいざい", "meaning": "économie" },
+      { "word": "済む", "reading": "すむ", "meaning": "être terminé" }
+    ],
+    "radical": "水",
+    "mnemonique": "L'eau achève son voyage jusqu'à la mer"
+  },
+  {
+    "kanji": "権",
+    "meanings": ["droit", "autorité"],
+    "onyomi": ["ケン", "ゴン"],
+    "kunyomi": [],
+    "strokes": 15,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "人権", "reading": "じんけん", "meaning": "droits de l'homme" },
+      { "word": "権利", "reading": "けんり", "meaning": "droit" }
+    ],
+    "radical": "木",
+    "mnemonique": "L'arbre de la justice donne les droits"
+  },
+  {
+    "kanji": "収",
+    "meanings": ["récolter", "obtenir"],
+    "onyomi": ["シュウ"],
+    "kunyomi": ["おさ.める", "おさ.まる"],
+    "strokes": 4,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "収入", "reading": "しゅうにゅう", "meaning": "revenu" },
+      { "word": "回収", "reading": "かいしゅう", "meaning": "récupération" }
+    ],
+    "radical": "又",
+    "mnemonique": "Une main qui attrape et récolte"
+  },
+  {
+    "kanji": "断",
+    "meanings": ["couper", "refuser", "juger"],
+    "onyomi": ["ダン"],
+    "kunyomi": ["ことわ.る", "た.つ"],
+    "strokes": 11,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "判断", "reading": "はんだん", "meaning": "jugement" },
+      { "word": "断る", "reading": "ことわる", "meaning": "refuser" }
+    ],
+    "radical": "斤",
+    "mnemonique": "Une hache tranche pour couper net"
+  },
+  {
+    "kanji": "任",
+    "meanings": ["responsabilité", "confier"],
+    "onyomi": ["ニン"],
+    "kunyomi": ["まか.せる"],
+    "strokes": 6,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "責任", "reading": "せきにん", "meaning": "responsabilité" },
+      { "word": "任せる", "reading": "まかせる", "meaning": "confier" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne à qui on confie une tâche"
+  },
+  {
+    "kanji": "届",
+    "meanings": ["livrer", "atteindre"],
+    "onyomi": [],
+    "kunyomi": ["とど.ける", "とど.く"],
+    "strokes": 8,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "届ける", "reading": "とどける", "meaning": "livrer" },
+      { "word": "届く", "reading": "とどく", "meaning": "arriver" }
+    ],
+    "radical": "尸",
+    "mnemonique": "Quelque chose passe par le corps pour être livré"
+  },
+  {
+    "kanji": "容",
+    "meanings": ["contenir", "apparence"],
+    "onyomi": ["ヨウ"],
+    "kunyomi": [],
+    "strokes": 10,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "内容", "reading": "ないよう", "meaning": "contenu" },
+      { "word": "容易", "reading": "ようい", "meaning": "facile" }
+    ],
+    "radical": "宀",
+    "mnemonique": "Sous un toit, une vallée contient beaucoup"
+  },
+  {
+    "kanji": "額",
+    "meanings": ["montant", "front"],
+    "onyomi": ["ガク"],
+    "kunyomi": ["ひたい"],
+    "strokes": 18,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "金額", "reading": "きんがく", "meaning": "montant d'argent" },
+      { "word": "額", "reading": "ひたい", "meaning": "front" }
+    ],
+    "radical": "頁",
+    "mnemonique": "La tête calcule les montants"
+  },
+  {
+    "kanji": "演",
+    "meanings": ["jouer", "représentation"],
+    "onyomi": ["エン"],
+    "kunyomi": [],
+    "strokes": 14,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "演奏", "reading": "えんそう", "meaning": "interprétation musicale" },
+      { "word": "講演", "reading": "こうえん", "meaning": "conférence" }
+    ],
+    "radical": "水",
+    "mnemonique": "L'eau coule comme une représentation fluide"
+  },
+  {
+    "kanji": "認",
+    "meanings": ["reconnaître", "admettre"],
+    "onyomi": ["ニン"],
+    "kunyomi": ["みと.める"],
+    "strokes": 14,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "認める", "reading": "みとめる", "meaning": "reconnaître" },
+      { "word": "確認", "reading": "かくにん", "meaning": "confirmation" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des paroles qui confirment la reconnaissance"
+  },
+  {
+    "kanji": "際",
+    "meanings": ["occasion", "bord"],
+    "onyomi": ["サイ"],
+    "kunyomi": ["きわ"],
+    "strokes": 14,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "国際", "reading": "こくさい", "meaning": "international" },
+      { "word": "実際", "reading": "じっさい", "meaning": "en réalité" }
+    ],
+    "radical": "阝",
+    "mnemonique": "Au bord de la colline, l'occasion se présente"
+  },
+  {
+    "kanji": "増",
+    "meanings": ["augmenter"],
+    "onyomi": ["ゾウ"],
+    "kunyomi": ["ふ.える", "ま.す"],
+    "strokes": 14,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "増える", "reading": "ふえる", "meaning": "augmenter" },
+      { "word": "増加", "reading": "ぞうか", "meaning": "augmentation" }
+    ],
+    "radical": "土",
+    "mnemonique": "La terre s'accumule et augmente"
+  },
+  {
+    "kanji": "減",
+    "meanings": ["diminuer"],
+    "onyomi": ["ゲン"],
+    "kunyomi": ["へ.る", "へ.らす"],
+    "strokes": 12,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "減る", "reading": "へる", "meaning": "diminuer" },
+      { "word": "削減", "reading": "さくげん", "meaning": "réduction" }
+    ],
+    "radical": "水",
+    "mnemonique": "L'eau diminue en s'évaporant"
+  },
+  {
+    "kanji": "防",
+    "meanings": ["protéger", "défendre"],
+    "onyomi": ["ボウ"],
+    "kunyomi": ["ふせ.ぐ"],
+    "strokes": 7,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "予防", "reading": "よぼう", "meaning": "prévention" },
+      { "word": "防ぐ", "reading": "ふせぐ", "meaning": "protéger" }
+    ],
+    "radical": "阝",
+    "mnemonique": "La colline sert de rempart pour défendre"
+  },
+  {
+    "kanji": "値",
+    "meanings": ["valeur", "prix"],
+    "onyomi": ["チ"],
+    "kunyomi": ["ね", "あたい"],
+    "strokes": 10,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "価値", "reading": "かち", "meaning": "valeur" },
+      { "word": "値段", "reading": "ねだん", "meaning": "prix" }
+    ],
+    "radical": "人",
+    "mnemonique": "La valeur d'une personne se mesure debout"
+  },
+  {
+    "kanji": "比",
+    "meanings": ["comparer", "ratio"],
+    "onyomi": ["ヒ"],
+    "kunyomi": ["くら.べる"],
+    "strokes": 4,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "比べる", "reading": "くらべる", "meaning": "comparer" },
+      { "word": "比較", "reading": "ひかく", "meaning": "comparaison" }
+    ],
+    "radical": "比",
+    "mnemonique": "Deux personnes côte à côte pour comparer"
+  },
+  {
+    "kanji": "判",
+    "meanings": ["juger", "sceau"],
+    "onyomi": ["ハン", "バン"],
+    "kunyomi": [],
+    "strokes": 7,
+    "jlpt": "N3",
+    "examples": [
+      { "word": "判断", "reading": "はんだん", "meaning": "jugement" },
+      { "word": "裁判", "reading": "さいばん", "meaning": "procès" }
+    ],
+    "radical": "刂",
+    "mnemonique": "Une lame tranche pour rendre justice"
+  }
+]

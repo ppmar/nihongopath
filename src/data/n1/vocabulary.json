@@ -1,0 +1,22 @@
+[
+  { "word": "破壊", "reading": "はかい", "meaning": "destruction", "pos": "noun", "jlpt": "N1", "tags": ["abstrait"] },
+  { "word": "頻繁", "reading": "ひんぱん", "meaning": "fréquent", "pos": "na-adjective", "jlpt": "N1", "tags": ["fréquence"] },
+  { "word": "興奮", "reading": "こうふん", "meaning": "excitation", "pos": "noun", "jlpt": "N1", "tags": ["émotion"] },
+  { "word": "賠償", "reading": "ばいしょう", "meaning": "indemnisation", "pos": "noun", "jlpt": "N1", "tags": ["droit"] },
+  { "word": "紛争", "reading": "ふんそう", "meaning": "conflit", "pos": "noun", "jlpt": "N1", "tags": ["politique"] },
+  { "word": "克服", "reading": "こくふく", "meaning": "surmonter", "pos": "noun", "jlpt": "N1", "tags": ["abstrait"] },
+  { "word": "措置", "reading": "そち", "meaning": "mesure/disposition", "pos": "noun", "jlpt": "N1", "tags": ["politique", "droit"] },
+  { "word": "繊維", "reading": "せんい", "meaning": "fibre", "pos": "noun", "jlpt": "N1", "tags": ["science", "matériau"] },
+  { "word": "繊細", "reading": "せんさい", "meaning": "délicat/sensible", "pos": "na-adjective", "jlpt": "N1", "tags": ["caractère"] },
+  { "word": "濃度", "reading": "のうど", "meaning": "concentration", "pos": "noun", "jlpt": "N1", "tags": ["science"] },
+  { "word": "唯一", "reading": "ゆいいつ", "meaning": "unique", "pos": "noun", "jlpt": "N1", "tags": ["abstrait"] },
+  { "word": "怠慢", "reading": "たいまん", "meaning": "négligence", "pos": "noun", "jlpt": "N1", "tags": ["comportement"] },
+  { "word": "感嘆", "reading": "かんたん", "meaning": "admiration/exclamation", "pos": "noun", "jlpt": "N1", "tags": ["émotion"] },
+  { "word": "露出", "reading": "ろしゅつ", "meaning": "exposition", "pos": "noun", "jlpt": "N1", "tags": ["abstrait"] },
+  { "word": "奮闘", "reading": "ふんとう", "meaning": "lutte acharnée", "pos": "noun", "jlpt": "N1", "tags": ["action"] },
+  { "word": "遂げる", "reading": "とげる", "meaning": "accomplir", "pos": "verb-ichidan", "jlpt": "N1", "tags": ["action"] },
+  { "word": "償う", "reading": "つぐなう", "meaning": "compenser/indemniser", "pos": "verb-godan", "jlpt": "N1", "tags": ["action"] },
+  { "word": "怠ける", "reading": "なまける", "meaning": "paresser/négliger", "pos": "verb-ichidan", "jlpt": "N1", "tags": ["comportement"] },
+  { "word": "嘆く", "reading": "なげく", "meaning": "déplorer/se lamenter", "pos": "verb-godan", "jlpt": "N1", "tags": ["émotion"] },
+  { "word": "紛らわしい", "reading": "まぎらわしい", "meaning": "déroutant/ambigu", "pos": "i-adjective", "jlpt": "N1", "tags": ["abstrait"] }
+]

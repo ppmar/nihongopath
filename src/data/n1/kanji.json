@@ -1,0 +1,212 @@
+[
+  {
+    "kanji": "壊",
+    "meanings": ["détruire", "casser"],
+    "onyomi": ["カイ"],
+    "kunyomi": ["こわ.す", "こわ.れる"],
+    "strokes": 16,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "破壊", "reading": "はかい", "meaning": "destruction" },
+      { "word": "壊す", "reading": "こわす", "meaning": "détruire" }
+    ],
+    "radical": "土",
+    "mnemonique": "La terre tremble et détruit tout autour"
+  },
+  {
+    "kanji": "網",
+    "meanings": ["filet", "réseau"],
+    "onyomi": ["モウ"],
+    "kunyomi": ["あみ"],
+    "strokes": 14,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "網", "reading": "あみ", "meaning": "filet" },
+      { "word": "通信網", "reading": "つうしんもう", "meaning": "réseau de communication" }
+    ],
+    "radical": "糸",
+    "mnemonique": "Des fils tissés forment un filet ou un réseau"
+  },
+  {
+    "kanji": "露",
+    "meanings": ["rosée", "exposer", "Russie"],
+    "onyomi": ["ロ", "ロウ"],
+    "kunyomi": ["つゆ"],
+    "strokes": 21,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "露出", "reading": "ろしゅつ", "meaning": "exposition" },
+      { "word": "露", "reading": "つゆ", "meaning": "rosée" }
+    ],
+    "radical": "雨",
+    "mnemonique": "La pluie tombe sur un chemin et expose la rosée"
+  },
+  {
+    "kanji": "頻",
+    "meanings": ["fréquent"],
+    "onyomi": ["ヒン"],
+    "kunyomi": ["しき.りに"],
+    "strokes": 17,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "頻繁", "reading": "ひんぱん", "meaning": "fréquent" },
+      { "word": "頻度", "reading": "ひんど", "meaning": "fréquence" }
+    ],
+    "radical": "頁",
+    "mnemonique": "La tête tourne fréquemment d'un côté à l'autre"
+  },
+  {
+    "kanji": "濃",
+    "meanings": ["épais", "dense", "concentré"],
+    "onyomi": ["ノウ"],
+    "kunyomi": ["こ.い"],
+    "strokes": 16,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "濃い", "reading": "こい", "meaning": "épais/foncé" },
+      { "word": "濃度", "reading": "のうど", "meaning": "concentration" }
+    ],
+    "radical": "水",
+    "mnemonique": "L'eau devient épaisse et concentrée"
+  },
+  {
+    "kanji": "奮",
+    "meanings": ["s'exciter", "s'efforcer"],
+    "onyomi": ["フン"],
+    "kunyomi": ["ふる.う"],
+    "strokes": 16,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "興奮", "reading": "こうふん", "meaning": "excitation" },
+      { "word": "奮闘", "reading": "ふんとう", "meaning": "lutte acharnée" }
+    ],
+    "radical": "大",
+    "mnemonique": "Un grand oiseau bat des ailes avec excitation"
+  },
+  {
+    "kanji": "償",
+    "meanings": ["compenser", "rembourser"],
+    "onyomi": ["ショウ"],
+    "kunyomi": ["つぐな.う"],
+    "strokes": 17,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "賠償", "reading": "ばいしょう", "meaning": "indemnisation" },
+      { "word": "償う", "reading": "つぐなう", "meaning": "compenser" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne compense le prix d'une dette"
+  },
+  {
+    "kanji": "紛",
+    "meanings": ["confusion", "dispute"],
+    "onyomi": ["フン"],
+    "kunyomi": ["まぎ.れる", "まぎ.らわしい"],
+    "strokes": 10,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "紛争", "reading": "ふんそう", "meaning": "conflit" },
+      { "word": "紛らわしい", "reading": "まぎらわしい", "meaning": "déroutant/ambigu" }
+    ],
+    "radical": "糸",
+    "mnemonique": "Des fils emmêlés créent la confusion"
+  },
+  {
+    "kanji": "克",
+    "meanings": ["surmonter", "vaincre"],
+    "onyomi": ["コク"],
+    "kunyomi": [],
+    "strokes": 7,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "克服", "reading": "こくふく", "meaning": "surmonter" },
+      { "word": "克己", "reading": "こっき", "meaning": "maîtrise de soi" }
+    ],
+    "radical": "儿",
+    "mnemonique": "Un enfant grandit pour surmonter les obstacles"
+  },
+  {
+    "kanji": "遂",
+    "meanings": ["accomplir", "finalement"],
+    "onyomi": ["スイ"],
+    "kunyomi": ["と.げる"],
+    "strokes": 12,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "遂げる", "reading": "とげる", "meaning": "accomplir" },
+      { "word": "未遂", "reading": "みすい", "meaning": "tentative (non aboutie)" }
+    ],
+    "radical": "辶",
+    "mnemonique": "Marcher sur le chemin jusqu'à l'accomplissement"
+  },
+  {
+    "kanji": "怠",
+    "meanings": ["paresseux", "négliger"],
+    "onyomi": ["タイ"],
+    "kunyomi": ["おこた.る", "なま.ける"],
+    "strokes": 9,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "怠ける", "reading": "なまける", "meaning": "paresser" },
+      { "word": "怠慢", "reading": "たいまん", "meaning": "négligence" }
+    ],
+    "radical": "心",
+    "mnemonique": "Le coeur qui s'endort et devient paresseux"
+  },
+  {
+    "kanji": "唯",
+    "meanings": ["unique", "seul"],
+    "onyomi": ["ユイ", "イ"],
+    "kunyomi": ["ただ"],
+    "strokes": 11,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "唯一", "reading": "ゆいいつ", "meaning": "unique" },
+      { "word": "唯", "reading": "ただ", "meaning": "simplement/seulement" }
+    ],
+    "radical": "口",
+    "mnemonique": "Une seule bouche porte la vérité unique"
+  },
+  {
+    "kanji": "嘆",
+    "meanings": ["soupirer", "déplorer"],
+    "onyomi": ["タン"],
+    "kunyomi": ["なげ.く", "なげ.かわしい"],
+    "strokes": 13,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "嘆く", "reading": "なげく", "meaning": "déplorer" },
+      { "word": "感嘆", "reading": "かんたん", "meaning": "admiration/exclamation" }
+    ],
+    "radical": "口",
+    "mnemonique": "La bouche soupire et laisse échapper un lament"
+  },
+  {
+    "kanji": "措",
+    "meanings": ["mesure", "placer"],
+    "onyomi": ["ソ"],
+    "kunyomi": [],
+    "strokes": 11,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "措置", "reading": "そち", "meaning": "mesure/disposition" },
+      { "word": "措定", "reading": "そてい", "meaning": "supposition" }
+    ],
+    "radical": "手",
+    "mnemonique": "La main met en place les mesures nécessaires"
+  },
+  {
+    "kanji": "繊",
+    "meanings": ["fibre", "fin", "délicat"],
+    "onyomi": ["セン"],
+    "kunyomi": [],
+    "strokes": 17,
+    "jlpt": "N1",
+    "examples": [
+      { "word": "繊維", "reading": "せんい", "meaning": "fibre" },
+      { "word": "繊細", "reading": "せんさい", "meaning": "délicat/sensible" }
+    ],
+    "radical": "糸",
+    "mnemonique": "Des fils si fins et délicats qu'ils semblent invisibles"
+  }
+]

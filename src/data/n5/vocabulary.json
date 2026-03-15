@@ -1,0 +1,2706 @@
+[
+  {
+    "word": "おはようございます",
+    "reading": "おはようございます",
+    "meaning": "bonjour (matin)",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "こんにちは",
+    "reading": "こんにちは",
+    "meaning": "bonjour (journée)",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "こんばんは",
+    "reading": "こんばんは",
+    "meaning": "bonsoir",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "さようなら",
+    "reading": "さようなら",
+    "meaning": "au revoir",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "ありがとうございます",
+    "reading": "ありがとうございます",
+    "meaning": "merci beaucoup",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "すみません",
+    "reading": "すみません",
+    "meaning": "excusez-moi / pardon",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "お願いします",
+    "reading": "おねがいします",
+    "meaning": "s'il vous plaît",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "はい",
+    "reading": "はい",
+    "meaning": "oui",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "いいえ",
+    "reading": "いいえ",
+    "meaning": "non",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "おやすみなさい",
+    "reading": "おやすみなさい",
+    "meaning": "bonne nuit",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "いただきます",
+    "reading": "いただきます",
+    "meaning": "bon appétit (avant le repas)",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "nourriture"]
+  },
+  {
+    "word": "ごちそうさまでした",
+    "reading": "ごちそうさまでした",
+    "meaning": "merci pour le repas (après le repas)",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "nourriture"]
+  },
+  {
+    "word": "はじめまして",
+    "reading": "はじめまして",
+    "meaning": "enchanté(e)",
+    "pos": "expression",
+    "jlpt": "N5",
+    "tags": ["salutations", "quotidien"]
+  },
+  {
+    "word": "一つ",
+    "reading": "ひとつ",
+    "meaning": "un (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "meaning": "deux (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "三つ",
+    "reading": "みっつ",
+    "meaning": "trois (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaning": "quatre (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaning": "cinq (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaning": "six (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaning": "sept (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "八つ",
+    "reading": "やっつ",
+    "meaning": "huit (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "meaning": "neuf (compteur général)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "十",
+    "reading": "じゅう",
+    "meaning": "dix",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "百",
+    "reading": "ひゃく",
+    "meaning": "cent",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "千",
+    "reading": "せん",
+    "meaning": "mille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "万",
+    "reading": "まん",
+    "meaning": "dix mille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nombres"]
+  },
+  {
+    "word": "今日",
+    "reading": "きょう",
+    "meaning": "aujourd'hui",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "明日",
+    "reading": "あした",
+    "meaning": "demain",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "昨日",
+    "reading": "きのう",
+    "meaning": "hier",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "朝",
+    "reading": "あさ",
+    "meaning": "matin",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "昼",
+    "reading": "ひる",
+    "meaning": "midi / après-midi",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "夜",
+    "reading": "よる",
+    "meaning": "nuit / soir",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "晩",
+    "reading": "ばん",
+    "meaning": "soir",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "時",
+    "reading": "じ",
+    "meaning": "heure (compteur)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "分",
+    "reading": "ふん",
+    "meaning": "minute (compteur)",
+    "pos": "counter",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "半",
+    "reading": "はん",
+    "meaning": "demie (heure)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "今",
+    "reading": "いま",
+    "meaning": "maintenant",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning": "chaque jour",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "meaning": "chaque matin",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎晩",
+    "reading": "まいばん",
+    "meaning": "chaque soir",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "meaning": "chaque semaine",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎月",
+    "reading": "まいつき",
+    "meaning": "chaque mois",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "毎年",
+    "reading": "まいとし",
+    "meaning": "chaque année",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "quotidien"]
+  },
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaning": "la semaine dernière",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "la semaine prochaine",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "先月",
+    "reading": "せんげつ",
+    "meaning": "le mois dernier",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "来月",
+    "reading": "らいげつ",
+    "meaning": "le mois prochain",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "去年",
+    "reading": "きょねん",
+    "meaning": "l'année dernière",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "l'année prochaine",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning": "matin / AM",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "午後",
+    "reading": "ごご",
+    "meaning": "après-midi / PM",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps"]
+  },
+  {
+    "word": "私",
+    "reading": "わたし",
+    "meaning": "je / moi",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["personnes", "quotidien"]
+  },
+  {
+    "word": "あなた",
+    "reading": "あなた",
+    "meaning": "tu / vous",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["personnes", "quotidien"]
+  },
+  {
+    "word": "彼",
+    "reading": "かれ",
+    "meaning": "il / lui",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["personnes"]
+  },
+  {
+    "word": "彼女",
+    "reading": "かのじょ",
+    "meaning": "elle",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["personnes"]
+  },
+  {
+    "word": "人",
+    "reading": "ひと",
+    "meaning": "personne",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "quotidien"]
+  },
+  {
+    "word": "男",
+    "reading": "おとこ",
+    "meaning": "homme",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes"]
+  },
+  {
+    "word": "女",
+    "reading": "おんな",
+    "meaning": "femme",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes"]
+  },
+  {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "meaning": "garçon",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "famille"]
+  },
+  {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "meaning": "fille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "famille"]
+  },
+  {
+    "word": "子供",
+    "reading": "こども",
+    "meaning": "enfant",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "famille"]
+  },
+  {
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning": "ami(e)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "quotidien"]
+  },
+  {
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "professeur / maître",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "école"]
+  },
+  {
+    "word": "学生",
+    "reading": "がくせい",
+    "meaning": "étudiant(e)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "école"]
+  },
+  {
+    "word": "留学生",
+    "reading": "りゅうがくせい",
+    "meaning": "étudiant(e) étranger/ère",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "école"]
+  },
+  {
+    "word": "会社員",
+    "reading": "かいしゃいん",
+    "meaning": "employé(e) de bureau",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "travail"]
+  },
+  {
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "meaning": "père (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "meaning": "mère (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "meaning": "grand frère (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "meaning": "grande sœur (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "弟",
+    "reading": "おとうと",
+    "meaning": "petit frère",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "妹",
+    "reading": "いもうと",
+    "meaning": "petite sœur",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "家族",
+    "reading": "かぞく",
+    "meaning": "famille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "奥さん",
+    "reading": "おくさん",
+    "meaning": "épouse (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "ご主人",
+    "reading": "ごしゅじん",
+    "meaning": "époux (poli)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["famille"]
+  },
+  {
+    "word": "学校",
+    "reading": "がっこう",
+    "meaning": "école",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "école"]
+  },
+  {
+    "word": "大学",
+    "reading": "だいがく",
+    "meaning": "université",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "école"]
+  },
+  {
+    "word": "駅",
+    "reading": "えき",
+    "meaning": "gare",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "transport"]
+  },
+  {
+    "word": "病院",
+    "reading": "びょういん",
+    "meaning": "hôpital",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meaning": "banque",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meaning": "bureau de poste",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "図書館",
+    "reading": "としょかん",
+    "meaning": "bibliothèque",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "家",
+    "reading": "いえ",
+    "meaning": "maison",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "quotidien"]
+  },
+  {
+    "word": "部屋",
+    "reading": "へや",
+    "meaning": "chambre / pièce",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "maison"]
+  },
+  {
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning": "entreprise",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "travail"]
+  },
+  {
+    "word": "店",
+    "reading": "みせ",
+    "meaning": "magasin / boutique",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "quotidien"]
+  },
+  {
+    "word": "レストラン",
+    "reading": "レストラン",
+    "meaning": "restaurant",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "nourriture"]
+  },
+  {
+    "word": "デパート",
+    "reading": "デパート",
+    "meaning": "grand magasin",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "ホテル",
+    "reading": "ホテル",
+    "meaning": "hôtel",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "voyage"]
+  },
+  {
+    "word": "公園",
+    "reading": "こうえん",
+    "meaning": "parc",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "水",
+    "reading": "みず",
+    "meaning": "eau",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "お茶",
+    "reading": "おちゃ",
+    "meaning": "thé",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "コーヒー",
+    "reading": "コーヒー",
+    "meaning": "café",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meaning": "lait",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "肉",
+    "reading": "にく",
+    "meaning": "viande",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "魚",
+    "reading": "さかな",
+    "meaning": "poisson",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "野菜",
+    "reading": "やさい",
+    "meaning": "légume",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "果物",
+    "reading": "くだもの",
+    "meaning": "fruit",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "ご飯",
+    "reading": "ごはん",
+    "meaning": "riz / repas",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "パン",
+    "reading": "パン",
+    "meaning": "pain",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "卵",
+    "reading": "たまご",
+    "meaning": "œuf",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "朝ご飯",
+    "reading": "あさごはん",
+    "meaning": "petit-déjeuner",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "昼ご飯",
+    "reading": "ひるごはん",
+    "meaning": "déjeuner",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "晩ご飯",
+    "reading": "ばんごはん",
+    "meaning": "dîner",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "食べる",
+    "reading": "たべる",
+    "meaning": "manger",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "飲む",
+    "reading": "のむ",
+    "meaning": "boire",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["nourriture", "quotidien"]
+  },
+  {
+    "word": "行く",
+    "reading": "いく",
+    "meaning": "aller",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement", "quotidien"]
+  },
+  {
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "venir",
+    "pos": "verb-irregular",
+    "jlpt": "N5",
+    "tags": ["mouvement", "quotidien"]
+  },
+  {
+    "word": "帰る",
+    "reading": "かえる",
+    "meaning": "rentrer (chez soi)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement", "quotidien"]
+  },
+  {
+    "word": "見る",
+    "reading": "みる",
+    "meaning": "voir / regarder",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["perception", "quotidien"]
+  },
+  {
+    "word": "聞く",
+    "reading": "きく",
+    "meaning": "écouter / entendre / demander",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["perception", "quotidien"]
+  },
+  {
+    "word": "読む",
+    "reading": "よむ",
+    "meaning": "lire",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["école", "quotidien"]
+  },
+  {
+    "word": "書く",
+    "reading": "かく",
+    "meaning": "écrire",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["école", "quotidien"]
+  },
+  {
+    "word": "話す",
+    "reading": "はなす",
+    "meaning": "parler",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["communication", "quotidien"]
+  },
+  {
+    "word": "買う",
+    "reading": "かう",
+    "meaning": "acheter",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "する",
+    "reading": "する",
+    "meaning": "faire",
+    "pos": "verb-irregular",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "ある",
+    "reading": "ある",
+    "meaning": "exister / il y a (inanimé)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "いる",
+    "reading": "いる",
+    "meaning": "exister / il y a (animé)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "分かる",
+    "reading": "わかる",
+    "meaning": "comprendre",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["communication", "quotidien"]
+  },
+  {
+    "word": "作る",
+    "reading": "つくる",
+    "meaning": "fabriquer / créer / préparer",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "使う",
+    "reading": "つかう",
+    "meaning": "utiliser",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "待つ",
+    "reading": "まつ",
+    "meaning": "attendre",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "持つ",
+    "reading": "もつ",
+    "meaning": "tenir / posséder",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "立つ",
+    "reading": "たつ",
+    "meaning": "se lever / être debout",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "座る",
+    "reading": "すわる",
+    "meaning": "s'asseoir",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "entrer",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "sortir",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "出かける",
+    "reading": "でかける",
+    "meaning": "sortir (de chez soi)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["mouvement", "quotidien"]
+  },
+  {
+    "word": "開ける",
+    "reading": "あける",
+    "meaning": "ouvrir",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "閉める",
+    "reading": "しめる",
+    "meaning": "fermer",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "起きる",
+    "reading": "おきる",
+    "meaning": "se réveiller / se lever",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "寝る",
+    "reading": "ねる",
+    "meaning": "dormir / se coucher",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "働く",
+    "reading": "はたらく",
+    "meaning": "travailler",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["travail", "quotidien"]
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "meaning": "se reposer / s'absenter",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "meaning": "jouer / s'amuser",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "meaning": "nager",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["sport"]
+  },
+  {
+    "word": "歩く",
+    "reading": "あるく",
+    "meaning": "marcher",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "走る",
+    "reading": "はしる",
+    "meaning": "courir",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement", "sport"]
+  },
+  {
+    "word": "乗る",
+    "reading": "のる",
+    "meaning": "monter (dans un véhicule)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "降りる",
+    "reading": "おりる",
+    "meaning": "descendre (d'un véhicule)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "教える",
+    "reading": "おしえる",
+    "meaning": "enseigner / apprendre (à qqn)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["école", "communication"]
+  },
+  {
+    "word": "習う",
+    "reading": "ならう",
+    "meaning": "apprendre (de qqn)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "勉強する",
+    "reading": "べんきょうする",
+    "meaning": "étudier",
+    "pos": "verb-irregular",
+    "jlpt": "N5",
+    "tags": ["école", "quotidien"]
+  },
+  {
+    "word": "洗う",
+    "reading": "あらう",
+    "meaning": "laver",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien", "maison"]
+  },
+  {
+    "word": "撮る",
+    "reading": "とる",
+    "meaning": "prendre (une photo)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "歌う",
+    "reading": "うたう",
+    "meaning": "chanter",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["loisirs"]
+  },
+  {
+    "word": "弾く",
+    "reading": "ひく",
+    "meaning": "jouer (instrument à cordes/clavier)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["loisirs"]
+  },
+  {
+    "word": "会う",
+    "reading": "あう",
+    "meaning": "rencontrer",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["communication", "quotidien"]
+  },
+  {
+    "word": "渡す",
+    "reading": "わたす",
+    "meaning": "remettre / donner",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "渡る",
+    "reading": "わたる",
+    "meaning": "traverser",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "曲がる",
+    "reading": "まがる",
+    "meaning": "tourner",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["mouvement"]
+  },
+  {
+    "word": "つける",
+    "reading": "つける",
+    "meaning": "allumer / mettre",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien", "maison"]
+  },
+  {
+    "word": "消す",
+    "reading": "けす",
+    "meaning": "éteindre / effacer",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien", "maison"]
+  },
+  {
+    "word": "切る",
+    "reading": "きる",
+    "meaning": "couper",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "着る",
+    "reading": "きる",
+    "meaning": "porter (vêtement haut du corps)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["vêtements", "quotidien"]
+  },
+  {
+    "word": "履く",
+    "reading": "はく",
+    "meaning": "porter (bas du corps / chaussures)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["vêtements", "quotidien"]
+  },
+  {
+    "word": "かぶる",
+    "reading": "かぶる",
+    "meaning": "porter (sur la tête)",
+    "pos": "verb-godan",
+    "jlpt": "N5",
+    "tags": ["vêtements"]
+  },
+  {
+    "word": "かける",
+    "reading": "かける",
+    "meaning": "porter (lunettes) / passer (un appel)",
+    "pos": "verb-ichidan",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "grand / gros",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "petit",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "高い",
+    "reading": "たかい",
+    "meaning": "haut / cher",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "安い",
+    "reading": "やすい",
+    "meaning": "bon marché / pas cher",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "nouveau / neuf",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "vieux / ancien",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "良い",
+    "reading": "いい",
+    "meaning": "bon / bien",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description", "quotidien"]
+  },
+  {
+    "word": "悪い",
+    "reading": "わるい",
+    "meaning": "mauvais",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "長い",
+    "reading": "ながい",
+    "meaning": "long",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "短い",
+    "reading": "みじかい",
+    "meaning": "court",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "nombreux / beaucoup",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "peu nombreux",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "暑い",
+    "reading": "あつい",
+    "meaning": "chaud (climat)",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["météo"]
+  },
+  {
+    "word": "寒い",
+    "reading": "さむい",
+    "meaning": "froid (climat)",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["météo"]
+  },
+  {
+    "word": "熱い",
+    "reading": "あつい",
+    "meaning": "chaud (objet / liquide)",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "冷たい",
+    "reading": "つめたい",
+    "meaning": "froid (objet / liquide)",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning": "large / spacieux",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "meaning": "étroit / exigu",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "重い",
+    "reading": "おもい",
+    "meaning": "lourd",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "軽い",
+    "reading": "かるい",
+    "meaning": "léger",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "近い",
+    "reading": "ちかい",
+    "meaning": "proche",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description", "lieux"]
+  },
+  {
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning": "loin / éloigné",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description", "lieux"]
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "meaning": "tôt / rapide",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["temps", "description"]
+  },
+  {
+    "word": "遅い",
+    "reading": "おそい",
+    "meaning": "tard / lent",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["temps", "description"]
+  },
+  {
+    "word": "白い",
+    "reading": "しろい",
+    "meaning": "blanc",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["couleurs"]
+  },
+  {
+    "word": "黒い",
+    "reading": "くろい",
+    "meaning": "noir",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["couleurs"]
+  },
+  {
+    "word": "赤い",
+    "reading": "あかい",
+    "meaning": "rouge",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["couleurs"]
+  },
+  {
+    "word": "青い",
+    "reading": "あおい",
+    "meaning": "bleu",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["couleurs"]
+  },
+  {
+    "word": "甘い",
+    "reading": "あまい",
+    "meaning": "sucré / doux",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "辛い",
+    "reading": "からい",
+    "meaning": "épicé / piquant",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "楽しい",
+    "reading": "たのしい",
+    "meaning": "amusant / agréable",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["sentiments"]
+  },
+  {
+    "word": "面白い",
+    "reading": "おもしろい",
+    "meaning": "intéressant / drôle",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["sentiments"]
+  },
+  {
+    "word": "難しい",
+    "reading": "むずかしい",
+    "meaning": "difficile",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description", "école"]
+  },
+  {
+    "word": "易しい",
+    "reading": "やさしい",
+    "meaning": "facile / simple",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["description", "école"]
+  },
+  {
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "meaning": "occupé / affairé",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["quotidien", "travail"]
+  },
+  {
+    "word": "美味しい",
+    "reading": "おいしい",
+    "meaning": "délicieux",
+    "pos": "i-adjective",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "元気",
+    "reading": "げんき",
+    "meaning": "en forme / énergique",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["sentiments", "quotidien"]
+  },
+  {
+    "word": "静か",
+    "reading": "しずか",
+    "meaning": "calme / silencieux",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "賑やか",
+    "reading": "にぎやか",
+    "meaning": "animé / vivant",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "meaning": "célèbre",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "好き",
+    "reading": "すき",
+    "meaning": "aimé / apprécié",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["sentiments", "quotidien"]
+  },
+  {
+    "word": "嫌い",
+    "reading": "きらい",
+    "meaning": "détesté",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["sentiments"]
+  },
+  {
+    "word": "上手",
+    "reading": "じょうず",
+    "meaning": "doué / habile",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "下手",
+    "reading": "へた",
+    "meaning": "maladroit / pas doué",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "大丈夫",
+    "reading": "だいじょうぶ",
+    "meaning": "ça va / pas de problème",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "大切",
+    "reading": "たいせつ",
+    "meaning": "important / précieux",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "大変",
+    "reading": "たいへん",
+    "meaning": "difficile / terrible / très",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "便利",
+    "reading": "べんり",
+    "meaning": "pratique / commode",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "暇",
+    "reading": "ひま",
+    "meaning": "libre / inoccupé",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "きれい",
+    "reading": "きれい",
+    "meaning": "joli / propre",
+    "pos": "na-adjective",
+    "jlpt": "N5",
+    "tags": ["description"]
+  },
+  {
+    "word": "とても",
+    "reading": "とても",
+    "meaning": "très / vraiment",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "よく",
+    "reading": "よく",
+    "meaning": "souvent / bien",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "いつも",
+    "reading": "いつも",
+    "meaning": "toujours",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "temps"]
+  },
+  {
+    "word": "時々",
+    "reading": "ときどき",
+    "meaning": "parfois / de temps en temps",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "temps"]
+  },
+  {
+    "word": "まだ",
+    "reading": "まだ",
+    "meaning": "encore / pas encore",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "temps"]
+  },
+  {
+    "word": "もう",
+    "reading": "もう",
+    "meaning": "déjà / bientôt",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "temps"]
+  },
+  {
+    "word": "すぐ",
+    "reading": "すぐ",
+    "meaning": "tout de suite / immédiatement",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "temps"]
+  },
+  {
+    "word": "たくさん",
+    "reading": "たくさん",
+    "meaning": "beaucoup",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "少し",
+    "reading": "すこし",
+    "meaning": "un peu",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "ちょっと",
+    "reading": "ちょっと",
+    "meaning": "un peu / un instant",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "quotidien"]
+  },
+  {
+    "word": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "tout / la totalité",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "一緒に",
+    "reading": "いっしょに",
+    "meaning": "ensemble",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "quotidien"]
+  },
+  {
+    "word": "多分",
+    "reading": "たぶん",
+    "meaning": "probablement / peut-être",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "初めて",
+    "reading": "はじめて",
+    "meaning": "pour la première fois",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "まっすぐ",
+    "reading": "まっすぐ",
+    "meaning": "tout droit",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes", "mouvement"]
+  },
+  {
+    "word": "ゆっくり",
+    "reading": "ゆっくり",
+    "meaning": "lentement / tranquillement",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["adverbes"]
+  },
+  {
+    "word": "本",
+    "reading": "ほん",
+    "meaning": "livre",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "école"]
+  },
+  {
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaning": "journal",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets"]
+  },
+  {
+    "word": "雑誌",
+    "reading": "ざっし",
+    "meaning": "magazine / revue",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets"]
+  },
+  {
+    "word": "辞書",
+    "reading": "じしょ",
+    "meaning": "dictionnaire",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "école"]
+  },
+  {
+    "word": "手紙",
+    "reading": "てがみ",
+    "meaning": "lettre (courrier)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "communication"]
+  },
+  {
+    "word": "写真",
+    "reading": "しゃしん",
+    "meaning": "photo",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets"]
+  },
+  {
+    "word": "電話",
+    "reading": "でんわ",
+    "meaning": "téléphone",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "communication"]
+  },
+  {
+    "word": "テレビ",
+    "reading": "テレビ",
+    "meaning": "télévision",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "maison"]
+  },
+  {
+    "word": "パソコン",
+    "reading": "パソコン",
+    "meaning": "ordinateur",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets"]
+  },
+  {
+    "word": "かばん",
+    "reading": "かばん",
+    "meaning": "sac",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "quotidien"]
+  },
+  {
+    "word": "傘",
+    "reading": "かさ",
+    "meaning": "parapluie",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "météo"]
+  },
+  {
+    "word": "時計",
+    "reading": "とけい",
+    "meaning": "montre / horloge",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "temps"]
+  },
+  {
+    "word": "鍵",
+    "reading": "かぎ",
+    "meaning": "clé",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "quotidien"]
+  },
+  {
+    "word": "財布",
+    "reading": "さいふ",
+    "meaning": "portefeuille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "quotidien"]
+  },
+  {
+    "word": "お金",
+    "reading": "おかね",
+    "meaning": "argent",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "切符",
+    "reading": "きっぷ",
+    "meaning": "billet (transport)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "机",
+    "reading": "つくえ",
+    "meaning": "bureau (meuble)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "maison"]
+  },
+  {
+    "word": "椅子",
+    "reading": "いす",
+    "meaning": "chaise",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets", "maison"]
+  },
+  {
+    "word": "窓",
+    "reading": "まど",
+    "meaning": "fenêtre",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison"]
+  },
+  {
+    "word": "ドア",
+    "reading": "ドア",
+    "meaning": "porte",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison"]
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "train",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "バス",
+    "reading": "バス",
+    "meaning": "bus",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "タクシー",
+    "reading": "タクシー",
+    "meaning": "taxi",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "vélo",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "meaning": "avion",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport", "voyage"]
+  },
+  {
+    "word": "車",
+    "reading": "くるま",
+    "meaning": "voiture",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["transport"]
+  },
+  {
+    "word": "道",
+    "reading": "みち",
+    "meaning": "chemin / route",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux"]
+  },
+  {
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "temps (météo)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["météo", "quotidien"]
+  },
+  {
+    "word": "雨",
+    "reading": "あめ",
+    "meaning": "pluie",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["météo"]
+  },
+  {
+    "word": "雪",
+    "reading": "ゆき",
+    "meaning": "neige",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["météo"]
+  },
+  {
+    "word": "風",
+    "reading": "かぜ",
+    "meaning": "vent",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["météo"]
+  },
+  {
+    "word": "花",
+    "reading": "はな",
+    "meaning": "fleur",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nature"]
+  },
+  {
+    "word": "山",
+    "reading": "やま",
+    "meaning": "montagne",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nature", "lieux"]
+  },
+  {
+    "word": "川",
+    "reading": "かわ",
+    "meaning": "rivière",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nature", "lieux"]
+  },
+  {
+    "word": "海",
+    "reading": "うみ",
+    "meaning": "mer",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nature", "lieux"]
+  },
+  {
+    "word": "木",
+    "reading": "き",
+    "meaning": "arbre",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nature"]
+  },
+  {
+    "word": "犬",
+    "reading": "いぬ",
+    "meaning": "chien",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["animaux"]
+  },
+  {
+    "word": "猫",
+    "reading": "ねこ",
+    "meaning": "chat",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["animaux"]
+  },
+  {
+    "word": "鳥",
+    "reading": "とり",
+    "meaning": "oiseau",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["animaux"]
+  },
+  {
+    "word": "名前",
+    "reading": "なまえ",
+    "meaning": "nom / prénom",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["personnes", "quotidien"]
+  },
+  {
+    "word": "言葉",
+    "reading": "ことば",
+    "meaning": "mot / langue / parole",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["communication"]
+  },
+  {
+    "word": "日本語",
+    "reading": "にほんご",
+    "meaning": "langue japonaise",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["communication", "école"]
+  },
+  {
+    "word": "英語",
+    "reading": "えいご",
+    "meaning": "langue anglaise",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["communication", "école"]
+  },
+  {
+    "word": "日本",
+    "reading": "にほん",
+    "meaning": "Japon",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "voyage"]
+  },
+  {
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning": "pays étranger",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["lieux", "voyage"]
+  },
+  {
+    "word": "映画",
+    "reading": "えいが",
+    "meaning": "film",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["loisirs"]
+  },
+  {
+    "word": "音楽",
+    "reading": "おんがく",
+    "meaning": "musique",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["loisirs"]
+  },
+  {
+    "word": "旅行",
+    "reading": "りょこう",
+    "meaning": "voyage",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["loisirs", "voyage"]
+  },
+  {
+    "word": "仕事",
+    "reading": "しごと",
+    "meaning": "travail",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["travail", "quotidien"]
+  },
+  {
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meaning": "anniversaire",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "休み",
+    "reading": "やすみ",
+    "meaning": "repos / congé / vacances",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "上",
+    "reading": "うえ",
+    "meaning": "dessus / au-dessus",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "下",
+    "reading": "した",
+    "meaning": "dessous / en dessous",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "meaning": "devant / avant",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position", "temps"]
+  },
+  {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaning": "derrière",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "右",
+    "reading": "みぎ",
+    "meaning": "droite",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "左",
+    "reading": "ひだり",
+    "meaning": "gauche",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "中",
+    "reading": "なか",
+    "meaning": "intérieur / dedans",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "外",
+    "reading": "そと",
+    "meaning": "extérieur / dehors",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "隣",
+    "reading": "となり",
+    "meaning": "à côté / voisin",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "間",
+    "reading": "あいだ",
+    "meaning": "entre / intervalle",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "そば",
+    "reading": "そば",
+    "meaning": "à proximité de",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["position"]
+  },
+  {
+    "word": "春",
+    "reading": "はる",
+    "meaning": "printemps",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "nature"]
+  },
+  {
+    "word": "夏",
+    "reading": "なつ",
+    "meaning": "été",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "nature"]
+  },
+  {
+    "word": "秋",
+    "reading": "あき",
+    "meaning": "automne",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "nature"]
+  },
+  {
+    "word": "冬",
+    "reading": "ふゆ",
+    "meaning": "hiver",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["temps", "nature"]
+  },
+  {
+    "word": "頭",
+    "reading": "あたま",
+    "meaning": "tête",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "目",
+    "reading": "め",
+    "meaning": "œil / yeux",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "耳",
+    "reading": "みみ",
+    "meaning": "oreille",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "口",
+    "reading": "くち",
+    "meaning": "bouche",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "手",
+    "reading": "て",
+    "meaning": "main",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "足",
+    "reading": "あし",
+    "meaning": "pied / jambe",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "体",
+    "reading": "からだ",
+    "meaning": "corps",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "病気",
+    "reading": "びょうき",
+    "meaning": "maladie",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps", "quotidien"]
+  },
+  {
+    "word": "薬",
+    "reading": "くすり",
+    "meaning": "médicament",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["corps"]
+  },
+  {
+    "word": "服",
+    "reading": "ふく",
+    "meaning": "vêtement",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["vêtements"]
+  },
+  {
+    "word": "靴",
+    "reading": "くつ",
+    "meaning": "chaussures",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["vêtements"]
+  },
+  {
+    "word": "帽子",
+    "reading": "ぼうし",
+    "meaning": "chapeau / casquette",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["vêtements"]
+  },
+  {
+    "word": "眼鏡",
+    "reading": "めがね",
+    "meaning": "lunettes",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["objets"]
+  },
+  {
+    "word": "問題",
+    "reading": "もんだい",
+    "meaning": "problème / question",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "答え",
+    "reading": "こたえ",
+    "meaning": "réponse",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "テスト",
+    "reading": "テスト",
+    "meaning": "test / examen",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "meaning": "devoirs (école)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "cours / leçon",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "練習",
+    "reading": "れんしゅう",
+    "meaning": "exercice / entraînement",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["école"]
+  },
+  {
+    "word": "意味",
+    "reading": "いみ",
+    "meaning": "sens / signification",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["communication", "école"]
+  },
+  {
+    "word": "そして",
+    "reading": "そして",
+    "meaning": "et puis / ensuite",
+    "pos": "conjunction",
+    "jlpt": "N5",
+    "tags": ["conjonctions"]
+  },
+  {
+    "word": "でも",
+    "reading": "でも",
+    "meaning": "mais / cependant",
+    "pos": "conjunction",
+    "jlpt": "N5",
+    "tags": ["conjonctions"]
+  },
+  {
+    "word": "しかし",
+    "reading": "しかし",
+    "meaning": "cependant / toutefois",
+    "pos": "conjunction",
+    "jlpt": "N5",
+    "tags": ["conjonctions"]
+  },
+  {
+    "word": "それから",
+    "reading": "それから",
+    "meaning": "et puis / après cela",
+    "pos": "conjunction",
+    "jlpt": "N5",
+    "tags": ["conjonctions"]
+  },
+  {
+    "word": "だから",
+    "reading": "だから",
+    "meaning": "c'est pourquoi / donc",
+    "pos": "conjunction",
+    "jlpt": "N5",
+    "tags": ["conjonctions"]
+  },
+  {
+    "word": "これ",
+    "reading": "これ",
+    "meaning": "ceci (proche du locuteur)",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs"]
+  },
+  {
+    "word": "それ",
+    "reading": "それ",
+    "meaning": "cela (proche de l'interlocuteur)",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs"]
+  },
+  {
+    "word": "あれ",
+    "reading": "あれ",
+    "meaning": "cela (loin des deux)",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs"]
+  },
+  {
+    "word": "ここ",
+    "reading": "ここ",
+    "meaning": "ici",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs", "position"]
+  },
+  {
+    "word": "そこ",
+    "reading": "そこ",
+    "meaning": "là (près de l'interlocuteur)",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs", "position"]
+  },
+  {
+    "word": "あそこ",
+    "reading": "あそこ",
+    "meaning": "là-bas",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["démonstratifs", "position"]
+  },
+  {
+    "word": "何",
+    "reading": "なに",
+    "meaning": "quoi / que",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "誰",
+    "reading": "だれ",
+    "meaning": "qui",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "どこ",
+    "reading": "どこ",
+    "meaning": "où",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "いつ",
+    "reading": "いつ",
+    "meaning": "quand",
+    "pos": "pronoun",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "どうして",
+    "reading": "どうして",
+    "meaning": "pourquoi",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "どう",
+    "reading": "どう",
+    "meaning": "comment",
+    "pos": "adverb",
+    "jlpt": "N5",
+    "tags": ["interrogatifs"]
+  },
+  {
+    "word": "電気",
+    "reading": "でんき",
+    "meaning": "électricité / lumière",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison", "quotidien"]
+  },
+  {
+    "word": "お風呂",
+    "reading": "おふろ",
+    "meaning": "bain",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison", "quotidien"]
+  },
+  {
+    "word": "トイレ",
+    "reading": "トイレ",
+    "meaning": "toilettes",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison", "quotidien"]
+  },
+  {
+    "word": "台所",
+    "reading": "だいどころ",
+    "meaning": "cuisine (pièce)",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison"]
+  },
+  {
+    "word": "庭",
+    "reading": "にわ",
+    "meaning": "jardin",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["maison", "nature"]
+  },
+  {
+    "word": "散歩",
+    "reading": "さんぽ",
+    "meaning": "promenade",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["loisirs", "quotidien"]
+  },
+  {
+    "word": "買い物",
+    "reading": "かいもの",
+    "meaning": "courses / shopping",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["quotidien"]
+  },
+  {
+    "word": "食べ物",
+    "reading": "たべもの",
+    "meaning": "nourriture",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "飲み物",
+    "reading": "のみもの",
+    "meaning": "boisson",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["nourriture"]
+  },
+  {
+    "word": "荷物",
+    "reading": "にもつ",
+    "meaning": "bagage / colis",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["voyage", "quotidien"]
+  },
+  {
+    "word": "地図",
+    "reading": "ちず",
+    "meaning": "carte / plan",
+    "pos": "noun",
+    "jlpt": "N5",
+    "tags": ["voyage", "objets"]
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "kanji": "会",
+    "meanings": ["rencontre", "société"],
+    "onyomi": ["カイ"],
+    "kunyomi": ["あ.う"],
+    "strokes": 6,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "会社", "reading": "かいしゃ", "meaning": "entreprise" },
+      { "word": "会議", "reading": "かいぎ", "meaning": "réunion" }
+    ],
+    "radical": "人",
+    "mnemonique": "Des personnes se rencontrent sous un toit"
+  },
+  {
+    "kanji": "同",
+    "meanings": ["même", "identique"],
+    "onyomi": ["ドウ"],
+    "kunyomi": ["おな.じ"],
+    "strokes": 6,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "同じ", "reading": "おなじ", "meaning": "même" },
+      { "word": "同時", "reading": "どうじ", "meaning": "en même temps" }
+    ],
+    "radical": "口",
+    "mnemonique": "Une bouche dans une boîte dit la même chose"
+  },
+  {
+    "kanji": "事",
+    "meanings": ["chose", "affaire"],
+    "onyomi": ["ジ", "ズ"],
+    "kunyomi": ["こと"],
+    "strokes": 8,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "仕事", "reading": "しごと", "meaning": "travail" },
+      { "word": "食事", "reading": "しょくじ", "meaning": "repas" }
+    ],
+    "radical": "亅",
+    "mnemonique": "Une main qui tient un outil pour accomplir une tâche"
+  },
+  {
+    "kanji": "自",
+    "meanings": ["soi-même", "naturel"],
+    "onyomi": ["ジ", "シ"],
+    "kunyomi": ["みずか.ら"],
+    "strokes": 6,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "自分", "reading": "じぶん", "meaning": "soi-même" },
+      { "word": "自然", "reading": "しぜん", "meaning": "nature" }
+    ],
+    "radical": "目",
+    "mnemonique": "Un nez pointant vers soi"
+  },
+  {
+    "kanji": "社",
+    "meanings": ["société", "sanctuaire"],
+    "onyomi": ["シャ"],
+    "kunyomi": ["やしろ"],
+    "strokes": 7,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "会社", "reading": "かいしゃ", "meaning": "entreprise" },
+      { "word": "神社", "reading": "じんじゃ", "meaning": "sanctuaire shinto" }
+    ],
+    "radical": "示",
+    "mnemonique": "Le sol sacré où les gens se rassemblent"
+  },
+  {
+    "kanji": "発",
+    "meanings": ["départ", "émission"],
+    "onyomi": ["ハツ", "ホツ"],
+    "kunyomi": [],
+    "strokes": 9,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "出発", "reading": "しゅっぱつ", "meaning": "départ" },
+      { "word": "発見", "reading": "はっけん", "meaning": "découverte" }
+    ],
+    "radical": "癶",
+    "mnemonique": "Deux pieds prêts à partir en courant"
+  },
+  {
+    "kanji": "者",
+    "meanings": ["personne", "individu"],
+    "onyomi": ["シャ"],
+    "kunyomi": ["もの"],
+    "strokes": 8,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "学者", "reading": "がくしゃ", "meaning": "savant" },
+      { "word": "若者", "reading": "わかもの", "meaning": "jeune personne" }
+    ],
+    "radical": "老",
+    "mnemonique": "Quelqu'un qui accumule du savoir avec l'âge"
+  },
+  {
+    "kanji": "地",
+    "meanings": ["terre", "sol"],
+    "onyomi": ["チ", "ジ"],
+    "kunyomi": [],
+    "strokes": 6,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "地図", "reading": "ちず", "meaning": "carte géographique" },
+      { "word": "地下鉄", "reading": "ちかてつ", "meaning": "métro" }
+    ],
+    "radical": "土",
+    "mnemonique": "La terre s'étend aussi loin que possible"
+  },
+  {
+    "kanji": "業",
+    "meanings": ["industrie", "métier"],
+    "onyomi": ["ギョウ", "ゴウ"],
+    "kunyomi": ["わざ"],
+    "strokes": 13,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "授業", "reading": "じゅぎょう", "meaning": "cours" },
+      { "word": "産業", "reading": "さんぎょう", "meaning": "industrie" }
+    ],
+    "radical": "木",
+    "mnemonique": "Un grand arbre avec des branches représentant différents métiers"
+  },
+  {
+    "kanji": "方",
+    "meanings": ["direction", "méthode", "personne (poli)"],
+    "onyomi": ["ホウ"],
+    "kunyomi": ["かた"],
+    "strokes": 4,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "方法", "reading": "ほうほう", "meaning": "méthode" },
+      { "word": "食べ方", "reading": "たべかた", "meaning": "façon de manger" }
+    ],
+    "radical": "方",
+    "mnemonique": "Une personne pointant une direction avec un bâton"
+  },
+  {
+    "kanji": "新",
+    "meanings": ["nouveau"],
+    "onyomi": ["シン"],
+    "kunyomi": ["あたら.しい", "あら.た"],
+    "strokes": 13,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "新聞", "reading": "しんぶん", "meaning": "journal" },
+      { "word": "新しい", "reading": "あたらしい", "meaning": "nouveau" }
+    ],
+    "radical": "斤",
+    "mnemonique": "Une hache coupe un arbre pour faire du bois neuf"
+  },
+  {
+    "kanji": "場",
+    "meanings": ["lieu", "endroit"],
+    "onyomi": ["ジョウ"],
+    "kunyomi": ["ば"],
+    "strokes": 12,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "場所", "reading": "ばしょ", "meaning": "endroit" },
+      { "word": "駐車場", "reading": "ちゅうしゃじょう", "meaning": "parking" }
+    ],
+    "radical": "土",
+    "mnemonique": "Un terrain de terre chauffé par le soleil"
+  },
+  {
+    "kanji": "員",
+    "meanings": ["membre", "personnel"],
+    "onyomi": ["イン"],
+    "kunyomi": [],
+    "strokes": 10,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "会社員", "reading": "かいしゃいん", "meaning": "employé" },
+      { "word": "店員", "reading": "てんいん", "meaning": "vendeur" }
+    ],
+    "radical": "口",
+    "mnemonique": "Une bouche au-dessus de jambes : une personne qui compte"
+  },
+  {
+    "kanji": "立",
+    "meanings": ["debout", "établir"],
+    "onyomi": ["リツ"],
+    "kunyomi": ["た.つ", "た.てる"],
+    "strokes": 5,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "立つ", "reading": "たつ", "meaning": "se lever" },
+      { "word": "国立", "reading": "こくりつ", "meaning": "national" }
+    ],
+    "radical": "立",
+    "mnemonique": "Une personne debout sur le sol"
+  },
+  {
+    "kanji": "開",
+    "meanings": ["ouvrir"],
+    "onyomi": ["カイ"],
+    "kunyomi": ["あ.く", "あ.ける", "ひら.く"],
+    "strokes": 12,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "開ける", "reading": "あける", "meaning": "ouvrir" },
+      { "word": "開発", "reading": "かいはつ", "meaning": "développement" }
+    ],
+    "radical": "門",
+    "mnemonique": "Deux mains ouvrent une grande porte"
+  },
+  {
+    "kanji": "手",
+    "meanings": ["main"],
+    "onyomi": ["シュ"],
+    "kunyomi": ["て"],
+    "strokes": 4,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "手紙", "reading": "てがみ", "meaning": "lettre" },
+      { "word": "選手", "reading": "せんしゅ", "meaning": "joueur/athlète" }
+    ],
+    "radical": "手",
+    "mnemonique": "Le dessin d'une main avec ses doigts"
+  },
+  {
+    "kanji": "力",
+    "meanings": ["force", "puissance"],
+    "onyomi": ["リョク", "リキ"],
+    "kunyomi": ["ちから"],
+    "strokes": 2,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "力", "reading": "ちから", "meaning": "force" },
+      { "word": "努力", "reading": "どりょく", "meaning": "effort" }
+    ],
+    "radical": "力",
+    "mnemonique": "Un bras musclé fléchi"
+  },
+  {
+    "kanji": "問",
+    "meanings": ["question", "problème"],
+    "onyomi": ["モン"],
+    "kunyomi": ["と.う"],
+    "strokes": 11,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "質問", "reading": "しつもん", "meaning": "question" },
+      { "word": "問題", "reading": "もんだい", "meaning": "problème" }
+    ],
+    "radical": "門",
+    "mnemonique": "Une bouche à la porte pose des questions"
+  },
+  {
+    "kanji": "代",
+    "meanings": ["génération", "remplacer", "prix"],
+    "onyomi": ["ダイ", "タイ"],
+    "kunyomi": ["か.わる", "よ", "しろ"],
+    "strokes": 5,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "時代", "reading": "じだい", "meaning": "époque" },
+      { "word": "代わり", "reading": "かわり", "meaning": "remplacement" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne qui en remplace une autre"
+  },
+  {
+    "kanji": "明",
+    "meanings": ["lumière", "clair", "prochain"],
+    "onyomi": ["メイ", "ミョウ"],
+    "kunyomi": ["あか.るい", "あき.らか"],
+    "strokes": 8,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "明日", "reading": "あした", "meaning": "demain" },
+      { "word": "説明", "reading": "せつめい", "meaning": "explication" }
+    ],
+    "radical": "日",
+    "mnemonique": "Le soleil et la lune ensemble éclairent tout"
+  },
+  {
+    "kanji": "動",
+    "meanings": ["mouvement", "bouger"],
+    "onyomi": ["ドウ"],
+    "kunyomi": ["うご.く", "うご.かす"],
+    "strokes": 11,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "運動", "reading": "うんどう", "meaning": "exercice physique" },
+      { "word": "動物", "reading": "どうぶつ", "meaning": "animal" }
+    ],
+    "radical": "力",
+    "mnemonique": "La force fait bouger les choses lourdes"
+  },
+  {
+    "kanji": "京",
+    "meanings": ["capitale"],
+    "onyomi": ["キョウ", "ケイ"],
+    "kunyomi": [],
+    "strokes": 8,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+      { "word": "京都", "reading": "きょうと", "meaning": "Kyoto" }
+    ],
+    "radical": "亠",
+    "mnemonique": "Un grand bâtiment surplombant la ville"
+  },
+  {
+    "kanji": "目",
+    "meanings": ["oeil", "but"],
+    "onyomi": ["モク", "ボク"],
+    "kunyomi": ["め"],
+    "strokes": 5,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "目的", "reading": "もくてき", "meaning": "objectif" },
+      { "word": "科目", "reading": "かもく", "meaning": "matière scolaire" }
+    ],
+    "radical": "目",
+    "mnemonique": "Un oeil tourné sur le côté"
+  },
+  {
+    "kanji": "通",
+    "meanings": ["passer", "traverser", "communiquer"],
+    "onyomi": ["ツウ"],
+    "kunyomi": ["とお.る", "かよ.う"],
+    "strokes": 10,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "交通", "reading": "こうつう", "meaning": "circulation/transport" },
+      { "word": "通う", "reading": "かよう", "meaning": "fréquenter" }
+    ],
+    "radical": "辶",
+    "mnemonique": "Marcher sur un chemin qui mène partout"
+  },
+  {
+    "kanji": "言",
+    "meanings": ["parole", "dire"],
+    "onyomi": ["ゲン", "ゴン"],
+    "kunyomi": ["い.う", "こと"],
+    "strokes": 7,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "言葉", "reading": "ことば", "meaning": "mot/parole" },
+      { "word": "言う", "reading": "いう", "meaning": "dire" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des paroles sortent d'une bouche en lignes"
+  },
+  {
+    "kanji": "理",
+    "meanings": ["raison", "logique"],
+    "onyomi": ["リ"],
+    "kunyomi": [],
+    "strokes": 11,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "料理", "reading": "りょうり", "meaning": "cuisine" },
+      { "word": "理由", "reading": "りゆう", "meaning": "raison" }
+    ],
+    "radical": "王",
+    "mnemonique": "Le roi ordonne la terre avec raison"
+  },
+  {
+    "kanji": "体",
+    "meanings": ["corps"],
+    "onyomi": ["タイ", "テイ"],
+    "kunyomi": ["からだ"],
+    "strokes": 7,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "体", "reading": "からだ", "meaning": "corps" },
+      { "word": "体育", "reading": "たいいく", "meaning": "éducation physique" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne avec son corps en entier"
+  },
+  {
+    "kanji": "田",
+    "meanings": ["rizière", "champ"],
+    "onyomi": ["デン"],
+    "kunyomi": ["た"],
+    "strokes": 5,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "田中", "reading": "たなか", "meaning": "Tanaka (nom de famille)" },
+      { "word": "田んぼ", "reading": "たんぼ", "meaning": "rizière" }
+    ],
+    "radical": "田",
+    "mnemonique": "Vue aérienne d'une rizière divisée en parcelles"
+  },
+  {
+    "kanji": "主",
+    "meanings": ["principal", "maître"],
+    "onyomi": ["シュ"],
+    "kunyomi": ["ぬし", "おも"],
+    "strokes": 5,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "主人", "reading": "しゅじん", "meaning": "mari/maître" },
+      { "word": "主に", "reading": "おもに", "meaning": "principalement" }
+    ],
+    "radical": "丶",
+    "mnemonique": "Le roi avec un point sur la tête : le chef"
+  },
+  {
+    "kanji": "題",
+    "meanings": ["sujet", "titre"],
+    "onyomi": ["ダイ"],
+    "kunyomi": [],
+    "strokes": 18,
+    "jlpt": "N4",
+    "examples": [
+      { "word": "問題", "reading": "もんだい", "meaning": "problème" },
+      { "word": "宿題", "reading": "しゅくだい", "meaning": "devoirs" }
+    ],
+    "radical": "頁",
+    "mnemonique": "La page d'un livre porte un titre important"
+  }
+]

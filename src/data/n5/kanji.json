@@ -1,0 +1,1122 @@
+[
+  {
+    "kanji": "日",
+    "meanings": ["jour", "soleil"],
+    "onyomi": ["ニチ", "ジツ"],
+    "kunyomi": ["ひ", "か"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "日本", "reading": "にほん", "meaning": "Japon" },
+      { "word": "今日", "reading": "きょう", "meaning": "aujourd'hui" }
+    ],
+    "radical": "日",
+    "mnemonique": "Un soleil dans un cadre"
+  },
+  {
+    "kanji": "一",
+    "meanings": ["un", "premier"],
+    "onyomi": ["イチ", "イツ"],
+    "kunyomi": ["ひと", "ひとつ"],
+    "strokes": 1,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "一人", "reading": "ひとり", "meaning": "une personne, seul" },
+      { "word": "一つ", "reading": "ひとつ", "meaning": "un (objet)" }
+    ],
+    "radical": "一",
+    "mnemonique": "Un simple trait horizontal, le chiffre le plus simple"
+  },
+  {
+    "kanji": "国",
+    "meanings": ["pays", "nation"],
+    "onyomi": ["コク"],
+    "kunyomi": ["くに"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "外国", "reading": "がいこく", "meaning": "pays étranger" },
+      { "word": "中国", "reading": "ちゅうごく", "meaning": "Chine" }
+    ],
+    "radical": "囗",
+    "mnemonique": "Un trésor (玉) protégé par des frontières (囗)"
+  },
+  {
+    "kanji": "人",
+    "meanings": ["personne", "être humain"],
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "日本人", "reading": "にほんじん", "meaning": "Japonais (personne)" },
+      { "word": "大人", "reading": "おとな", "meaning": "adulte" }
+    ],
+    "radical": "人",
+    "mnemonique": "Deux jambes qui marchent, une personne de profil"
+  },
+  {
+    "kanji": "年",
+    "meanings": ["année", "âge"],
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "今年", "reading": "ことし", "meaning": "cette année" },
+      { "word": "去年", "reading": "きょねん", "meaning": "l'année dernière" }
+    ],
+    "radical": "干",
+    "mnemonique": "Une personne qui porte le poids des saisons sur son dos"
+  },
+  {
+    "kanji": "大",
+    "meanings": ["grand", "gros"],
+    "onyomi": ["ダイ", "タイ"],
+    "kunyomi": ["おお", "おおきい"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "大学", "reading": "だいがく", "meaning": "université" },
+      { "word": "大きい", "reading": "おおきい", "meaning": "grand" }
+    ],
+    "radical": "大",
+    "mnemonique": "Une personne (人) qui écarte les bras pour montrer quelque chose de grand"
+  },
+  {
+    "kanji": "十",
+    "meanings": ["dix"],
+    "onyomi": ["ジュウ", "ジッ"],
+    "kunyomi": ["とお", "と"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "十分", "reading": "じゅっぷん", "meaning": "dix minutes" },
+      { "word": "十日", "reading": "とおか", "meaning": "le dix (du mois)" }
+    ],
+    "radical": "十",
+    "mnemonique": "Une croix, comme un + qui représente le 10"
+  },
+  {
+    "kanji": "二",
+    "meanings": ["deux"],
+    "onyomi": ["ニ"],
+    "kunyomi": ["ふた", "ふたつ"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "二人", "reading": "ふたり", "meaning": "deux personnes" },
+      { "word": "二つ", "reading": "ふたつ", "meaning": "deux (objets)" }
+    ],
+    "radical": "二",
+    "mnemonique": "Deux traits horizontaux, tout simplement deux"
+  },
+  {
+    "kanji": "本",
+    "meanings": ["livre", "origine", "vrai"],
+    "onyomi": ["ホン"],
+    "kunyomi": ["もと"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "日本", "reading": "にほん", "meaning": "Japon" },
+      { "word": "本屋", "reading": "ほんや", "meaning": "librairie" }
+    ],
+    "radical": "木",
+    "mnemonique": "Un arbre (木) avec une marque à la racine, l'origine"
+  },
+  {
+    "kanji": "中",
+    "meanings": ["milieu", "intérieur", "pendant"],
+    "onyomi": ["チュウ"],
+    "kunyomi": ["なか"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "中学校", "reading": "ちゅうがっこう", "meaning": "collège" },
+      { "word": "中国", "reading": "ちゅうごく", "meaning": "Chine" }
+    ],
+    "radical": "丨",
+    "mnemonique": "Une flèche qui traverse le centre d'une cible"
+  },
+  {
+    "kanji": "長",
+    "meanings": ["long", "chef"],
+    "onyomi": ["チョウ"],
+    "kunyomi": ["なが", "ながい"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "長い", "reading": "ながい", "meaning": "long" },
+      { "word": "校長", "reading": "こうちょう", "meaning": "directeur d'école" }
+    ],
+    "radical": "長",
+    "mnemonique": "De longs cheveux qui descendent sur un corps"
+  },
+  {
+    "kanji": "出",
+    "meanings": ["sortir", "produire"],
+    "onyomi": ["シュツ", "スイ"],
+    "kunyomi": ["で", "だ"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "出口", "reading": "でぐち", "meaning": "sortie" },
+      { "word": "出かける", "reading": "でかける", "meaning": "sortir (de chez soi)" }
+    ],
+    "radical": "凵",
+    "mnemonique": "Deux montagnes qui surgissent d'un récipient"
+  },
+  {
+    "kanji": "三",
+    "meanings": ["trois"],
+    "onyomi": ["サン"],
+    "kunyomi": ["み", "みつ", "みっつ"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "三人", "reading": "さんにん", "meaning": "trois personnes" },
+      { "word": "三つ", "reading": "みっつ", "meaning": "trois (objets)" }
+    ],
+    "radical": "一",
+    "mnemonique": "Trois traits horizontaux empilés"
+  },
+  {
+    "kanji": "時",
+    "meanings": ["temps", "heure"],
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "strokes": 10,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "時間", "reading": "じかん", "meaning": "temps, durée" },
+      { "word": "一時", "reading": "いちじ", "meaning": "une heure" }
+    ],
+    "radical": "日",
+    "mnemonique": "Le soleil (日) au temple (寺) marque le passage du temps"
+  },
+  {
+    "kanji": "行",
+    "meanings": ["aller", "ligne", "faire"],
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["い", "ゆ", "おこな"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "行く", "reading": "いく", "meaning": "aller" },
+      { "word": "旅行", "reading": "りょこう", "meaning": "voyage" }
+    ],
+    "radical": "行",
+    "mnemonique": "Un carrefour vu d'en haut, là où l'on marche"
+  },
+  {
+    "kanji": "見",
+    "meanings": ["voir", "regarder", "montrer"],
+    "onyomi": ["ケン"],
+    "kunyomi": ["み", "みる", "みえる", "みせる"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "見る", "reading": "みる", "meaning": "regarder" },
+      { "word": "意見", "reading": "いけん", "meaning": "opinion" }
+    ],
+    "radical": "見",
+    "mnemonique": "Un grand oeil (目) sur des jambes (儿) qui observe le monde"
+  },
+  {
+    "kanji": "月",
+    "meanings": ["lune", "mois"],
+    "onyomi": ["ゲツ", "ガツ"],
+    "kunyomi": ["つき"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "一月", "reading": "いちがつ", "meaning": "janvier" },
+      { "word": "月曜日", "reading": "げつようび", "meaning": "lundi" }
+    ],
+    "radical": "月",
+    "mnemonique": "Un croissant de lune avec ses cratères"
+  },
+  {
+    "kanji": "分",
+    "meanings": ["minute", "diviser", "comprendre", "partie"],
+    "onyomi": ["ブン", "フン", "ブ"],
+    "kunyomi": ["わ", "わかる", "わける"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "五分", "reading": "ごふん", "meaning": "cinq minutes" },
+      { "word": "分かる", "reading": "わかる", "meaning": "comprendre" }
+    ],
+    "radical": "刀",
+    "mnemonique": "Un couteau (刀) qui divise en huit (八) parts"
+  },
+  {
+    "kanji": "後",
+    "meanings": ["après", "derrière", "arrière"],
+    "onyomi": ["ゴ", "コウ"],
+    "kunyomi": ["のち", "うし", "あと"],
+    "strokes": 9,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "午後", "reading": "ごご", "meaning": "après-midi" },
+      { "word": "後ろ", "reading": "うしろ", "meaning": "derrière" }
+    ],
+    "radical": "彳",
+    "mnemonique": "Un pied qui traîne derrière sur le chemin"
+  },
+  {
+    "kanji": "前",
+    "meanings": ["avant", "devant"],
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
+    "strokes": 9,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "名前", "reading": "なまえ", "meaning": "nom" },
+      { "word": "午前", "reading": "ごぜん", "meaning": "matin (AM)" }
+    ],
+    "radical": "刀",
+    "mnemonique": "Couper (刀) la lune (月) en deux pour avancer"
+  },
+  {
+    "kanji": "生",
+    "meanings": ["vie", "naître", "pousser", "cru"],
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["い", "いきる", "う", "うまれる", "なま"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "先生", "reading": "せんせい", "meaning": "professeur" },
+      { "word": "学生", "reading": "がくせい", "meaning": "étudiant" }
+    ],
+    "radical": "生",
+    "mnemonique": "Une plante qui pousse de la terre, symbole de vie"
+  },
+  {
+    "kanji": "五",
+    "meanings": ["cinq"],
+    "onyomi": ["ゴ"],
+    "kunyomi": ["いつ", "いつつ"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "五日", "reading": "いつか", "meaning": "le cinq (du mois)" },
+      { "word": "五十", "reading": "ごじゅう", "meaning": "cinquante" }
+    ],
+    "radical": "二",
+    "mnemonique": "Cinq doigts serrés entre deux lignes"
+  },
+  {
+    "kanji": "間",
+    "meanings": ["intervalle", "entre", "espace", "pièce"],
+    "onyomi": ["カン", "ケン"],
+    "kunyomi": ["あいだ", "ま"],
+    "strokes": 12,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "時間", "reading": "じかん", "meaning": "temps, durée" },
+      { "word": "間に合う", "reading": "まにあう", "meaning": "être à temps" }
+    ],
+    "radical": "門",
+    "mnemonique": "Le soleil (日) visible à travers une porte (門)"
+  },
+  {
+    "kanji": "上",
+    "meanings": ["haut", "dessus", "monter"],
+    "onyomi": ["ジョウ", "ショウ"],
+    "kunyomi": ["うえ", "あ", "あがる", "のぼ", "のぼる"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "上手", "reading": "じょうず", "meaning": "habile, doué" },
+      { "word": "上がる", "reading": "あがる", "meaning": "monter" }
+    ],
+    "radical": "一",
+    "mnemonique": "Une flèche qui pointe vers le haut au-dessus d'une ligne"
+  },
+  {
+    "kanji": "東",
+    "meanings": ["est"],
+    "onyomi": ["トウ"],
+    "kunyomi": ["ひがし"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+      { "word": "東口", "reading": "ひがしぐち", "meaning": "sortie est" }
+    ],
+    "radical": "木",
+    "mnemonique": "Le soleil (日) se lève derrière un arbre (木) à l'est"
+  },
+  {
+    "kanji": "四",
+    "meanings": ["quatre"],
+    "onyomi": ["シ"],
+    "kunyomi": ["よ", "よつ", "よっつ", "よん"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "四日", "reading": "よっか", "meaning": "le quatre (du mois)" },
+      { "word": "四つ", "reading": "よっつ", "meaning": "quatre (objets)" }
+    ],
+    "radical": "囗",
+    "mnemonique": "Quatre côtés d'un enclos avec des divisions à l'intérieur"
+  },
+  {
+    "kanji": "今",
+    "meanings": ["maintenant", "actuel"],
+    "onyomi": ["コン", "キン"],
+    "kunyomi": ["いま"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "今日", "reading": "きょう", "meaning": "aujourd'hui" },
+      { "word": "今年", "reading": "ことし", "meaning": "cette année" }
+    ],
+    "radical": "人",
+    "mnemonique": "Un toit qui couvre le moment présent"
+  },
+  {
+    "kanji": "金",
+    "meanings": ["or", "argent", "métal", "vendredi"],
+    "onyomi": ["キン", "コン"],
+    "kunyomi": ["かね", "かな"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "お金", "reading": "おかね", "meaning": "argent" },
+      { "word": "金曜日", "reading": "きんようび", "meaning": "vendredi" }
+    ],
+    "radical": "金",
+    "mnemonique": "Deux pépites sous un toit, la richesse protégée"
+  },
+  {
+    "kanji": "九",
+    "meanings": ["neuf"],
+    "onyomi": ["キュウ", "ク"],
+    "kunyomi": ["ここの", "ここのつ"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "九日", "reading": "ここのか", "meaning": "le neuf (du mois)" },
+      { "word": "九つ", "reading": "ここのつ", "meaning": "neuf (objets)" }
+    ],
+    "radical": "乙",
+    "mnemonique": "Un bras qui se courbe, comme le chiffre 9"
+  },
+  {
+    "kanji": "入",
+    "meanings": ["entrer", "insérer"],
+    "onyomi": ["ニュウ"],
+    "kunyomi": ["い", "いる", "いれる", "はい", "はいる"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "入口", "reading": "いりぐち", "meaning": "entrée" },
+      { "word": "入れる", "reading": "いれる", "meaning": "mettre dedans" }
+    ],
+    "radical": "入",
+    "mnemonique": "Comme 人 (personne) mais les jambes sont ouvertes pour entrer"
+  },
+  {
+    "kanji": "学",
+    "meanings": ["étude", "apprendre", "science"],
+    "onyomi": ["ガク"],
+    "kunyomi": ["まな", "まなぶ"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "学校", "reading": "がっこう", "meaning": "école" },
+      { "word": "大学", "reading": "だいがく", "meaning": "université" }
+    ],
+    "radical": "子",
+    "mnemonique": "Un enfant (子) sous un toit qui étudie"
+  },
+  {
+    "kanji": "高",
+    "meanings": ["haut", "cher", "élevé"],
+    "onyomi": ["コウ"],
+    "kunyomi": ["たか", "たかい"],
+    "strokes": 10,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "高い", "reading": "たかい", "meaning": "haut, cher" },
+      { "word": "高校", "reading": "こうこう", "meaning": "lycée" }
+    ],
+    "radical": "高",
+    "mnemonique": "Un bâtiment élevé avec un toit pointu"
+  },
+  {
+    "kanji": "円",
+    "meanings": ["yen", "cercle", "rond"],
+    "onyomi": ["エン"],
+    "kunyomi": ["まる", "まるい"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "百円", "reading": "ひゃくえん", "meaning": "cent yens" },
+      { "word": "千円", "reading": "せんえん", "meaning": "mille yens" }
+    ],
+    "radical": "冂",
+    "mnemonique": "Un cadre avec deux traits comme une pièce de monnaie"
+  },
+  {
+    "kanji": "子",
+    "meanings": ["enfant", "fils/fille"],
+    "onyomi": ["シ", "ス"],
+    "kunyomi": ["こ"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "子供", "reading": "こども", "meaning": "enfant" },
+      { "word": "女の子", "reading": "おんなのこ", "meaning": "fille" }
+    ],
+    "radical": "子",
+    "mnemonique": "Un bébé emmailloté avec les bras tendus"
+  },
+  {
+    "kanji": "外",
+    "meanings": ["extérieur", "dehors", "étranger"],
+    "onyomi": ["ガイ", "ゲ"],
+    "kunyomi": ["そと", "ほか", "はず", "はずす"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "外国", "reading": "がいこく", "meaning": "pays étranger" },
+      { "word": "外出", "reading": "がいしゅつ", "meaning": "sortie" }
+    ],
+    "radical": "夕",
+    "mnemonique": "Le soir (夕) on fait une divination (卜) dehors"
+  },
+  {
+    "kanji": "八",
+    "meanings": ["huit"],
+    "onyomi": ["ハチ"],
+    "kunyomi": ["や", "やつ", "やっつ", "よう"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "八日", "reading": "ようか", "meaning": "le huit (du mois)" },
+      { "word": "八百", "reading": "はっぴゃく", "meaning": "huit cents" }
+    ],
+    "radical": "八",
+    "mnemonique": "Deux traits qui s'écartent comme un V inversé"
+  },
+  {
+    "kanji": "六",
+    "meanings": ["six"],
+    "onyomi": ["ロク"],
+    "kunyomi": ["む", "むつ", "むっつ"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "六日", "reading": "むいか", "meaning": "le six (du mois)" },
+      { "word": "六つ", "reading": "むっつ", "meaning": "six (objets)" }
+    ],
+    "radical": "八",
+    "mnemonique": "Un chapeau au-dessus de deux jambes, comme un 6"
+  },
+  {
+    "kanji": "万",
+    "meanings": ["dix mille"],
+    "onyomi": ["マン", "バン"],
+    "kunyomi": [],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "一万", "reading": "いちまん", "meaning": "dix mille" },
+      { "word": "万年筆", "reading": "まんねんひつ", "meaning": "stylo-plume" }
+    ],
+    "radical": "一",
+    "mnemonique": "Un chiffre si grand qu'il courbe sous son poids"
+  },
+  {
+    "kanji": "北",
+    "meanings": ["nord"],
+    "onyomi": ["ホク"],
+    "kunyomi": ["きた"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "北海道", "reading": "ほっかいどう", "meaning": "Hokkaido" },
+      { "word": "北口", "reading": "きたぐち", "meaning": "sortie nord" }
+    ],
+    "radical": "匕",
+    "mnemonique": "Deux personnes dos à dos qui fuient le froid du nord"
+  },
+  {
+    "kanji": "百",
+    "meanings": ["cent"],
+    "onyomi": ["ヒャク"],
+    "kunyomi": [],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "百円", "reading": "ひゃくえん", "meaning": "cent yens" },
+      { "word": "三百", "reading": "さんびゃく", "meaning": "trois cents" }
+    ],
+    "radical": "白",
+    "mnemonique": "Un (一) au-dessus de blanc (白), la pureté de cent"
+  },
+  {
+    "kanji": "七",
+    "meanings": ["sept"],
+    "onyomi": ["シチ"],
+    "kunyomi": ["なな", "ななつ", "なの"],
+    "strokes": 2,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "七日", "reading": "なのか", "meaning": "le sept (du mois)" },
+      { "word": "七つ", "reading": "ななつ", "meaning": "sept (objets)" }
+    ],
+    "radical": "一",
+    "mnemonique": "Un trait coupé, comme un 7 inversé"
+  },
+  {
+    "kanji": "下",
+    "meanings": ["bas", "dessous", "descendre"],
+    "onyomi": ["カ", "ゲ"],
+    "kunyomi": ["した", "さ", "さがる", "くだ", "くだる", "お", "おりる"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "下手", "reading": "へた", "meaning": "maladroit" },
+      { "word": "地下鉄", "reading": "ちかてつ", "meaning": "métro" }
+    ],
+    "radical": "一",
+    "mnemonique": "Une flèche qui pointe vers le bas sous une ligne"
+  },
+  {
+    "kanji": "女",
+    "meanings": ["femme", "féminin"],
+    "onyomi": ["ジョ", "ニョ"],
+    "kunyomi": ["おんな", "め"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "女の人", "reading": "おんなのひと", "meaning": "femme" },
+      { "word": "女子", "reading": "じょし", "meaning": "fille, femme" }
+    ],
+    "radical": "女",
+    "mnemonique": "Une personne assise gracieusement, les jambes croisées"
+  },
+  {
+    "kanji": "名",
+    "meanings": ["nom", "célèbre"],
+    "onyomi": ["メイ", "ミョウ"],
+    "kunyomi": ["な"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "名前", "reading": "なまえ", "meaning": "nom" },
+      { "word": "有名", "reading": "ゆうめい", "meaning": "célèbre" }
+    ],
+    "radical": "口",
+    "mnemonique": "Le soir (夕) on appelle (口) les gens par leur nom"
+  },
+  {
+    "kanji": "千",
+    "meanings": ["mille"],
+    "onyomi": ["セン"],
+    "kunyomi": ["ち"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "千円", "reading": "せんえん", "meaning": "mille yens" },
+      { "word": "三千", "reading": "さんぜん", "meaning": "trois mille" }
+    ],
+    "radical": "十",
+    "mnemonique": "Dix (十) avec un trait en plus, dix fois cent"
+  },
+  {
+    "kanji": "水",
+    "meanings": ["eau"],
+    "onyomi": ["スイ"],
+    "kunyomi": ["みず"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "水曜日", "reading": "すいようび", "meaning": "mercredi" },
+      { "word": "水泳", "reading": "すいえい", "meaning": "natation" }
+    ],
+    "radical": "水",
+    "mnemonique": "Un courant d'eau qui éclabousse de chaque côté"
+  },
+  {
+    "kanji": "半",
+    "meanings": ["moitié", "demi"],
+    "onyomi": ["ハン"],
+    "kunyomi": ["なか", "なかば"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "半分", "reading": "はんぶん", "meaning": "moitié" },
+      { "word": "三時半", "reading": "さんじはん", "meaning": "trois heures et demie" }
+    ],
+    "radical": "十",
+    "mnemonique": "Un boeuf (牛) coupé en deux parties égales"
+  },
+  {
+    "kanji": "男",
+    "meanings": ["homme", "masculin"],
+    "onyomi": ["ダン", "ナン"],
+    "kunyomi": ["おとこ"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "男の人", "reading": "おとこのひと", "meaning": "homme" },
+      { "word": "男子", "reading": "だんし", "meaning": "garçon, homme" }
+    ],
+    "radical": "田",
+    "mnemonique": "Celui qui a la force (力) de travailler au champ (田)"
+  },
+  {
+    "kanji": "西",
+    "meanings": ["ouest"],
+    "onyomi": ["セイ", "サイ"],
+    "kunyomi": ["にし"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "西口", "reading": "にしぐち", "meaning": "sortie ouest" },
+      { "word": "北西", "reading": "ほくせい", "meaning": "nord-ouest" }
+    ],
+    "radical": "西",
+    "mnemonique": "Un oiseau dans son nid au coucher du soleil à l'ouest"
+  },
+  {
+    "kanji": "電",
+    "meanings": ["électricité", "foudre"],
+    "onyomi": ["デン"],
+    "kunyomi": [],
+    "strokes": 13,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "電話", "reading": "でんわ", "meaning": "téléphone" },
+      { "word": "電車", "reading": "でんしゃ", "meaning": "train électrique" }
+    ],
+    "radical": "雨",
+    "mnemonique": "La pluie (雨) crée des éclairs électriques"
+  },
+  {
+    "kanji": "校",
+    "meanings": ["école"],
+    "onyomi": ["コウ"],
+    "kunyomi": [],
+    "strokes": 10,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "学校", "reading": "がっこう", "meaning": "école" },
+      { "word": "高校", "reading": "こうこう", "meaning": "lycée" }
+    ],
+    "radical": "木",
+    "mnemonique": "Un arbre (木) où les jambes croisées (交) s'assoient pour étudier"
+  },
+  {
+    "kanji": "語",
+    "meanings": ["langue", "mot", "parler"],
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かた", "かたる"],
+    "strokes": 14,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "日本語", "reading": "にほんご", "meaning": "langue japonaise" },
+      { "word": "英語", "reading": "えいご", "meaning": "anglais" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des paroles (言) composées de cinq (五) bouches (口)"
+  },
+  {
+    "kanji": "食",
+    "meanings": ["manger", "nourriture"],
+    "onyomi": ["ショク", "ジキ"],
+    "kunyomi": ["た", "たべる", "く"],
+    "strokes": 9,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "食べる", "reading": "たべる", "meaning": "manger" },
+      { "word": "食堂", "reading": "しょくどう", "meaning": "cantine, réfectoire" }
+    ],
+    "radical": "食",
+    "mnemonique": "Un toit couvrant de la bonne nourriture sur une table"
+  },
+  {
+    "kanji": "何",
+    "meanings": ["quoi", "quel", "combien"],
+    "onyomi": ["カ"],
+    "kunyomi": ["なに", "なん"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "何人", "reading": "なんにん", "meaning": "combien de personnes" },
+      { "word": "何時", "reading": "なんじ", "meaning": "quelle heure" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne (亻) qui se demande quoi (可) faire"
+  },
+  {
+    "kanji": "南",
+    "meanings": ["sud"],
+    "onyomi": ["ナン"],
+    "kunyomi": ["みなみ"],
+    "strokes": 9,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "南口", "reading": "みなみぐち", "meaning": "sortie sud" },
+      { "word": "南東", "reading": "なんとう", "meaning": "sud-est" }
+    ],
+    "radical": "十",
+    "mnemonique": "Un abri au sud où l'on s'abrite du vent chaud"
+  },
+  {
+    "kanji": "話",
+    "meanings": ["parler", "conversation", "histoire"],
+    "onyomi": ["ワ"],
+    "kunyomi": ["はな", "はなす", "はなし"],
+    "strokes": 13,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "電話", "reading": "でんわ", "meaning": "téléphone" },
+      { "word": "話す", "reading": "はなす", "meaning": "parler" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des mots (言) qui forment une langue (舌) pour parler"
+  },
+  {
+    "kanji": "読",
+    "meanings": ["lire"],
+    "onyomi": ["ドク", "トク", "トウ"],
+    "kunyomi": ["よ", "よむ"],
+    "strokes": 14,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "読む", "reading": "よむ", "meaning": "lire" },
+      { "word": "読書", "reading": "どくしょ", "meaning": "lecture" }
+    ],
+    "radical": "言",
+    "mnemonique": "Des paroles (言) qu'on vend (売) sous forme de livres à lire"
+  },
+  {
+    "kanji": "書",
+    "meanings": ["écrire", "livre"],
+    "onyomi": ["ショ"],
+    "kunyomi": ["か", "かく"],
+    "strokes": 10,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "書く", "reading": "かく", "meaning": "écrire" },
+      { "word": "辞書", "reading": "じしょ", "meaning": "dictionnaire" }
+    ],
+    "radical": "曰",
+    "mnemonique": "Un pinceau qui trace des mots sous le soleil (日)"
+  },
+  {
+    "kanji": "友",
+    "meanings": ["ami"],
+    "onyomi": ["ユウ"],
+    "kunyomi": ["とも"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "友達", "reading": "ともだち", "meaning": "ami" },
+      { "word": "親友", "reading": "しんゆう", "meaning": "meilleur ami" }
+    ],
+    "radical": "又",
+    "mnemonique": "Deux mains (又) qui se tiennent en amitié"
+  },
+  {
+    "kanji": "母",
+    "meanings": ["mère"],
+    "onyomi": ["ボ"],
+    "kunyomi": ["はは"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "お母さん", "reading": "おかあさん", "meaning": "maman" },
+      { "word": "母国", "reading": "ぼこく", "meaning": "patrie" }
+    ],
+    "radical": "母",
+    "mnemonique": "Deux seins nourriciers, symbole maternel"
+  },
+  {
+    "kanji": "火",
+    "meanings": ["feu", "mardi"],
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ", "ほ"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "火曜日", "reading": "かようび", "meaning": "mardi" },
+      { "word": "花火", "reading": "はなび", "meaning": "feu d'artifice" }
+    ],
+    "radical": "火",
+    "mnemonique": "Des flammes qui dansent avec des étincelles"
+  },
+  {
+    "kanji": "車",
+    "meanings": ["voiture", "véhicule"],
+    "onyomi": ["シャ"],
+    "kunyomi": ["くるま"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "電車", "reading": "でんしゃ", "meaning": "train" },
+      { "word": "自動車", "reading": "じどうしゃ", "meaning": "automobile" }
+    ],
+    "radical": "車",
+    "mnemonique": "Une roue avec un essieu central vue de dessus"
+  },
+  {
+    "kanji": "木",
+    "meanings": ["arbre", "bois", "jeudi"],
+    "onyomi": ["モク", "ボク"],
+    "kunyomi": ["き", "こ"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "木曜日", "reading": "もくようび", "meaning": "jeudi" },
+      { "word": "大木", "reading": "たいぼく", "meaning": "grand arbre" }
+    ],
+    "radical": "木",
+    "mnemonique": "Un arbre avec un tronc, des branches et des racines"
+  },
+  {
+    "kanji": "休",
+    "meanings": ["repos", "vacances", "se reposer"],
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やす", "やすむ", "やすみ"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "休む", "reading": "やすむ", "meaning": "se reposer" },
+      { "word": "休日", "reading": "きゅうじつ", "meaning": "jour de repos" }
+    ],
+    "radical": "人",
+    "mnemonique": "Une personne (亻) appuyée contre un arbre (木) pour se reposer"
+  },
+  {
+    "kanji": "父",
+    "meanings": ["père"],
+    "onyomi": ["フ"],
+    "kunyomi": ["ちち"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "お父さん", "reading": "おとうさん", "meaning": "papa" },
+      { "word": "父母", "reading": "ふぼ", "meaning": "parents (père et mère)" }
+    ],
+    "radical": "父",
+    "mnemonique": "Deux mains croisées qui tiennent fermement, l'autorité du père"
+  },
+  {
+    "kanji": "雨",
+    "meanings": ["pluie"],
+    "onyomi": ["ウ"],
+    "kunyomi": ["あめ", "あま"],
+    "strokes": 8,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "大雨", "reading": "おおあめ", "meaning": "forte pluie" },
+      { "word": "雨天", "reading": "うてん", "meaning": "temps pluvieux" }
+    ],
+    "radical": "雨",
+    "mnemonique": "Des gouttes (丶丶丶丶) tombant d'un nuage sous un ciel (一)"
+  },
+  {
+    "kanji": "天",
+    "meanings": ["ciel", "paradis", "nature"],
+    "onyomi": ["テン"],
+    "kunyomi": ["あめ", "あま"],
+    "strokes": 4,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "天気", "reading": "てんき", "meaning": "temps (météo)" },
+      { "word": "天国", "reading": "てんごく", "meaning": "paradis" }
+    ],
+    "radical": "大",
+    "mnemonique": "Au-dessus (一) de ce qui est grand (大), il y a le ciel"
+  },
+  {
+    "kanji": "気",
+    "meanings": ["esprit", "énergie", "humeur", "air"],
+    "onyomi": ["キ", "ケ"],
+    "kunyomi": [],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "天気", "reading": "てんき", "meaning": "temps (météo)" },
+      { "word": "元気", "reading": "げんき", "meaning": "en forme, énergique" }
+    ],
+    "radical": "气",
+    "mnemonique": "De la vapeur (气) qui s'élève du riz (米), énergie vitale"
+  },
+  {
+    "kanji": "右",
+    "meanings": ["droite"],
+    "onyomi": ["ウ", "ユウ"],
+    "kunyomi": ["みぎ"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "右手", "reading": "みぎて", "meaning": "main droite" },
+      { "word": "右側", "reading": "みぎがわ", "meaning": "côté droit" }
+    ],
+    "radical": "口",
+    "mnemonique": "Une main (ナ) qui porte de la nourriture à la bouche (口), la main droite"
+  },
+  {
+    "kanji": "左",
+    "meanings": ["gauche"],
+    "onyomi": ["サ"],
+    "kunyomi": ["ひだり"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "左手", "reading": "ひだりて", "meaning": "main gauche" },
+      { "word": "左側", "reading": "ひだりがわ", "meaning": "côté gauche" }
+    ],
+    "radical": "工",
+    "mnemonique": "Une main (ナ) qui tient un outil de travail (工), la main gauche"
+  },
+  {
+    "kanji": "山",
+    "meanings": ["montagne"],
+    "onyomi": ["サン", "ザン"],
+    "kunyomi": ["やま"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "富士山", "reading": "ふじさん", "meaning": "Mont Fuji" },
+      { "word": "山登り", "reading": "やまのぼり", "meaning": "randonnée en montagne" }
+    ],
+    "radical": "山",
+    "mnemonique": "Trois pics montagneux qui se dressent"
+  },
+  {
+    "kanji": "川",
+    "meanings": ["rivière", "fleuve"],
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "川", "reading": "かわ", "meaning": "rivière" },
+      { "word": "小川", "reading": "おがわ", "meaning": "ruisseau" }
+    ],
+    "radical": "川",
+    "mnemonique": "Trois courants d'eau qui coulent en parallèle"
+  },
+  {
+    "kanji": "先",
+    "meanings": ["avant", "précédent", "bout", "futur"],
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "先生", "reading": "せんせい", "meaning": "professeur" },
+      { "word": "先週", "reading": "せんしゅう", "meaning": "la semaine dernière" }
+    ],
+    "radical": "儿",
+    "mnemonique": "Des jambes (儿) qui avancent en premier avec un chapeau"
+  },
+  {
+    "kanji": "土",
+    "meanings": ["terre", "sol", "samedi"],
+    "onyomi": ["ド", "ト"],
+    "kunyomi": ["つち"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "土曜日", "reading": "どようび", "meaning": "samedi" },
+      { "word": "土地", "reading": "とち", "meaning": "terrain" }
+    ],
+    "radical": "土",
+    "mnemonique": "Une pousse qui sort de la terre (一), le sol"
+  },
+  {
+    "kanji": "白",
+    "meanings": ["blanc"],
+    "onyomi": ["ハク", "ビャク"],
+    "kunyomi": ["しろ", "しろい", "しら"],
+    "strokes": 5,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "白い", "reading": "しろい", "meaning": "blanc" },
+      { "word": "白紙", "reading": "はくし", "meaning": "feuille blanche" }
+    ],
+    "radical": "白",
+    "mnemonique": "Un rayon de soleil (日) qui éclaire et rend tout blanc"
+  },
+  {
+    "kanji": "小",
+    "meanings": ["petit"],
+    "onyomi": ["ショウ"],
+    "kunyomi": ["ちい", "ちいさい", "こ", "お"],
+    "strokes": 3,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "小さい", "reading": "ちいさい", "meaning": "petit" },
+      { "word": "小学校", "reading": "しょうがっこう", "meaning": "école primaire" }
+    ],
+    "radical": "小",
+    "mnemonique": "Un objet divisé (丨) en petits morceaux de chaque côté"
+  },
+  {
+    "kanji": "花",
+    "meanings": ["fleur"],
+    "onyomi": ["カ"],
+    "kunyomi": ["はな"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "花火", "reading": "はなび", "meaning": "feu d'artifice" },
+      { "word": "花見", "reading": "はなみ", "meaning": "contemplation des cerisiers en fleurs" }
+    ],
+    "radical": "艹",
+    "mnemonique": "Une plante (艹) qui se transforme (化) en fleur"
+  },
+  {
+    "kanji": "聞",
+    "meanings": ["entendre", "écouter", "demander"],
+    "onyomi": ["ブン", "モン"],
+    "kunyomi": ["き", "きく", "きこえる"],
+    "strokes": 14,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "聞く", "reading": "きく", "meaning": "écouter, demander" },
+      { "word": "新聞", "reading": "しんぶん", "meaning": "journal" }
+    ],
+    "radical": "耳",
+    "mnemonique": "Une oreille (耳) collée à une porte (門) pour écouter"
+  },
+  {
+    "kanji": "毎",
+    "meanings": ["chaque", "tous les"],
+    "onyomi": ["マイ"],
+    "kunyomi": ["ごと"],
+    "strokes": 6,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "毎日", "reading": "まいにち", "meaning": "chaque jour" },
+      { "word": "毎週", "reading": "まいしゅう", "meaning": "chaque semaine" }
+    ],
+    "radical": "母",
+    "mnemonique": "Une mère (母) qui fait les mêmes gestes chaque jour"
+  },
+  {
+    "kanji": "来",
+    "meanings": ["venir", "prochain", "futur"],
+    "onyomi": ["ライ"],
+    "kunyomi": ["く", "くる", "きた", "きたる"],
+    "strokes": 7,
+    "jlpt": "N5",
+    "examples": [
+      { "word": "来年", "reading": "らいねん", "meaning": "l'année prochaine" },
+      { "word": "来る", "reading": "くる", "meaning": "venir" }
+    ],
+    "radical": "木",
+    "mnemonique": "Un arbre (木) dont les fruits arrivent avec les saisons à venir"
+  }
+]

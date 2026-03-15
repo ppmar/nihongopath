@@ -1,0 +1,282 @@
+[
+  {
+    "kanji": "挙",
+    "meanings": ["lever", "élection", "citer"],
+    "onyomi": ["キョ"],
+    "kunyomi": ["あ.げる", "あ.がる"],
+    "strokes": 10,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "選挙", "reading": "せんきょ", "meaning": "élection" },
+      { "word": "挙げる", "reading": "あげる", "meaning": "lever/citer" }
+    ],
+    "radical": "手",
+    "mnemonique": "Les mains se lèvent ensemble pour voter"
+  },
+  {
+    "kanji": "況",
+    "meanings": ["situation", "condition"],
+    "onyomi": ["キョウ"],
+    "kunyomi": [],
+    "strokes": 7,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "状況", "reading": "じょうきょう", "meaning": "situation" },
+      { "word": "況して", "reading": "まして", "meaning": "à plus forte raison" }
+    ],
+    "radical": "水",
+    "mnemonique": "L'eau reflète la situation telle qu'elle est"
+  },
+  {
+    "kanji": "献",
+    "meanings": ["offrir", "consacrer"],
+    "onyomi": ["ケン", "コン"],
+    "kunyomi": [],
+    "strokes": 13,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "貢献", "reading": "こうけん", "meaning": "contribution" },
+      { "word": "献血", "reading": "けんけつ", "meaning": "don du sang" }
+    ],
+    "radical": "犬",
+    "mnemonique": "Un animal fidèle offre sa loyauté"
+  },
+  {
+    "kanji": "策",
+    "meanings": ["plan", "stratégie"],
+    "onyomi": ["サク"],
+    "kunyomi": [],
+    "strokes": 12,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "対策", "reading": "たいさく", "meaning": "contre-mesure" },
+      { "word": "政策", "reading": "せいさく", "meaning": "politique (mesure)" }
+    ],
+    "radical": "竹",
+    "mnemonique": "Écrire une stratégie sur du bambou"
+  },
+  {
+    "kanji": "域",
+    "meanings": ["zone", "domaine"],
+    "onyomi": ["イキ"],
+    "kunyomi": [],
+    "strokes": 11,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "地域", "reading": "ちいき", "meaning": "région/zone" },
+      { "word": "領域", "reading": "りょういき", "meaning": "domaine/territoire" }
+    ],
+    "radical": "土",
+    "mnemonique": "La terre délimitée par une arme forme un territoire"
+  },
+  {
+    "kanji": "革",
+    "meanings": ["cuir", "réforme"],
+    "onyomi": ["カク"],
+    "kunyomi": ["かわ"],
+    "strokes": 9,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "改革", "reading": "かいかく", "meaning": "réforme" },
+      { "word": "革命", "reading": "かくめい", "meaning": "révolution" }
+    ],
+    "radical": "革",
+    "mnemonique": "La peau tannée se transforme, comme une réforme"
+  },
+  {
+    "kanji": "異",
+    "meanings": ["différent", "étrange"],
+    "onyomi": ["イ"],
+    "kunyomi": ["こと", "こと.なる"],
+    "strokes": 11,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "異なる", "reading": "ことなる", "meaning": "différer" },
+      { "word": "異常", "reading": "いじょう", "meaning": "anormal" }
+    ],
+    "radical": "田",
+    "mnemonique": "Un champ avec quelque chose de différent en dessous"
+  },
+  {
+    "kanji": "皮",
+    "meanings": ["peau", "écorce"],
+    "onyomi": ["ヒ"],
+    "kunyomi": ["かわ"],
+    "strokes": 5,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "皮膚", "reading": "ひふ", "meaning": "peau" },
+      { "word": "皮肉", "reading": "ひにく", "meaning": "ironie/sarcasme" }
+    ],
+    "radical": "皮",
+    "mnemonique": "Une main tire la peau d'un animal"
+  },
+  {
+    "kanji": "含",
+    "meanings": ["contenir", "inclure"],
+    "onyomi": ["ガン"],
+    "kunyomi": ["ふく.む", "ふく.める"],
+    "strokes": 7,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "含む", "reading": "ふくむ", "meaning": "contenir" },
+      { "word": "含める", "reading": "ふくめる", "meaning": "inclure" }
+    ],
+    "radical": "口",
+    "mnemonique": "La bouche contient quelque chose à l'intérieur"
+  },
+  {
+    "kanji": "較",
+    "meanings": ["comparer"],
+    "onyomi": ["カク"],
+    "kunyomi": [],
+    "strokes": 13,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "比較", "reading": "ひかく", "meaning": "comparaison" },
+      { "word": "比較的", "reading": "ひかくてき", "meaning": "relativement" }
+    ],
+    "radical": "車",
+    "mnemonique": "Deux véhicules côte à côte pour comparer"
+  },
+  {
+    "kanji": "居",
+    "meanings": ["résider", "être"],
+    "onyomi": ["キョ"],
+    "kunyomi": ["い.る"],
+    "strokes": 8,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "居る", "reading": "いる", "meaning": "être/se trouver" },
+      { "word": "居間", "reading": "いま", "meaning": "salon" }
+    ],
+    "radical": "尸",
+    "mnemonique": "Une personne ancienne assise dans sa demeure"
+  },
+  {
+    "kanji": "幅",
+    "meanings": ["largeur"],
+    "onyomi": ["フク"],
+    "kunyomi": ["はば"],
+    "strokes": 12,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "幅", "reading": "はば", "meaning": "largeur" },
+      { "word": "大幅", "reading": "おおはば", "meaning": "considérable" }
+    ],
+    "radical": "巾",
+    "mnemonique": "Un tissu qui s'étend sur toute la largeur"
+  },
+  {
+    "kanji": "暴",
+    "meanings": ["violence", "exposer"],
+    "onyomi": ["ボウ", "バク"],
+    "kunyomi": ["あば.く", "あば.れる"],
+    "strokes": 15,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "暴力", "reading": "ぼうりょく", "meaning": "violence" },
+      { "word": "暴れる", "reading": "あばれる", "meaning": "se déchaîner" }
+    ],
+    "radical": "日",
+    "mnemonique": "La chaleur du soleil expose la violence"
+  },
+  {
+    "kanji": "補",
+    "meanings": ["compléter", "suppléer"],
+    "onyomi": ["ホ"],
+    "kunyomi": ["おぎな.う"],
+    "strokes": 12,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "補う", "reading": "おぎなう", "meaning": "compléter/compenser" },
+      { "word": "候補", "reading": "こうほ", "meaning": "candidat" }
+    ],
+    "radical": "衤",
+    "mnemonique": "Un vêtement rapiécé pour compléter ce qui manque"
+  },
+  {
+    "kanji": "届",
+    "meanings": ["livrer", "déclarer"],
+    "onyomi": [],
+    "kunyomi": ["とど.ける", "とど.く"],
+    "strokes": 8,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "届出", "reading": "とどけで", "meaning": "déclaration" },
+      { "word": "届け先", "reading": "とどけさき", "meaning": "adresse de livraison" }
+    ],
+    "radical": "尸",
+    "mnemonique": "Le corps transporte un message jusqu'à destination"
+  },
+  {
+    "kanji": "否",
+    "meanings": ["non", "nier", "refuser"],
+    "onyomi": ["ヒ"],
+    "kunyomi": ["いな"],
+    "strokes": 7,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "否定", "reading": "ひてい", "meaning": "négation" },
+      { "word": "賛否", "reading": "さんぴ", "meaning": "pour et contre" }
+    ],
+    "radical": "口",
+    "mnemonique": "Une bouche qui dit non catégoriquement"
+  },
+  {
+    "kanji": "庁",
+    "meanings": ["agence gouvernementale", "bureau"],
+    "onyomi": ["チョウ"],
+    "kunyomi": [],
+    "strokes": 5,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "警察庁", "reading": "けいさつちょう", "meaning": "agence nationale de police" },
+      { "word": "気象庁", "reading": "きしょうちょう", "meaning": "agence météorologique" }
+    ],
+    "radical": "广",
+    "mnemonique": "Un bâtiment officiel avec un toit large"
+  },
+  {
+    "kanji": "奏",
+    "meanings": ["jouer (musique)", "présenter"],
+    "onyomi": ["ソウ"],
+    "kunyomi": ["かな.でる"],
+    "strokes": 9,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "演奏", "reading": "えんそう", "meaning": "interprétation musicale" },
+      { "word": "合奏", "reading": "がっそう", "meaning": "ensemble musical" }
+    ],
+    "radical": "大",
+    "mnemonique": "De grandes mains jouent de la musique avec grâce"
+  },
+  {
+    "kanji": "犯",
+    "meanings": ["crime", "commettre"],
+    "onyomi": ["ハン"],
+    "kunyomi": ["おか.す"],
+    "strokes": 5,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "犯罪", "reading": "はんざい", "meaning": "crime" },
+      { "word": "犯人", "reading": "はんにん", "meaning": "criminel" }
+    ],
+    "radical": "犭",
+    "mnemonique": "Un animal qui franchit les limites et commet un crime"
+  },
+  {
+    "kanji": "率",
+    "meanings": ["taux", "rapport", "mener"],
+    "onyomi": ["リツ", "ソツ"],
+    "kunyomi": ["ひき.いる"],
+    "strokes": 11,
+    "jlpt": "N2",
+    "examples": [
+      { "word": "確率", "reading": "かくりつ", "meaning": "probabilité" },
+      { "word": "率いる", "reading": "ひきいる", "meaning": "mener/diriger" }
+    ],
+    "radical": "玄",
+    "mnemonique": "Un fil mystérieux mesure le taux des choses"
+  }
+]
