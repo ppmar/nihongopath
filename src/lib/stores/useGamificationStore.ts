@@ -33,6 +33,9 @@ type GamificationState = {
   recordActivity: () => void;
   incrementDaily: () => void;
   setDailyGoal: (goal: number) => void;
+  setKanjiMastered: (count: number) => void;
+  setVocabMastered: (count: number) => void;
+  setGrammarLearned: (count: number) => void;
   unlockAchievement: (id: string) => void;
   resetCombo: () => void;
   reset: () => void;
@@ -120,6 +123,9 @@ export const useGamificationStore = create<GamificationState>()(
       },
 
       setDailyGoal: (goal: number) => set({ dailyGoal: goal }),
+      setKanjiMastered: (count: number) => set({ kanjiMastered: count }),
+      setVocabMastered: (count: number) => set({ vocabMastered: count }),
+      setGrammarLearned: (count: number) => set({ grammarLearned: count }),
 
       unlockAchievement: (id: string) => {
         set((s) => ({

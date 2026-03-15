@@ -8,14 +8,14 @@ import {
   Home,
   BookOpen,
   Languages,
-  PenTool,
-  BarChart3,
+  RotateCw,
   User,
   ChevronLeft,
   ChevronRight,
   GraduationCap,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useProgressStore } from "@/lib/stores/useProgressStore";
 import { XPBar } from "./XPBar";
 import { StreakIndicator } from "./StreakIndicator";
 
@@ -33,6 +33,7 @@ const NAV_ITEMS = [
 export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
   const pathname = usePathname();
+  const dueCount = useProgressStore((s) => s.getItemsDueForReview().length);
 
   return (
     <aside
@@ -114,15 +115,28 @@ export function Sidebar() {
         })}
       </nav>
 
-      {/* Footer */}
+      {/* Footer — Review link */}
       {!collapsed && (
         <div className="p-4 border-t border-border">
-          <div className="flex items-center gap-2">
-            <PenTool className="h-4 w-4 text-muted-foreground" />
-            <span className="text-xs text-muted-foreground">
-              Révisions : 0 en attente
+          <Link
+            href="/review"
+            className={cn(
+              "flex items-center gap-2 text-sm transition-colors",
+              dueCount > 0
+                ? "text-violet-400 hover:text-violet-300"
+                : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            <RotateCw className="h-4 w-4" />
+            <span>
+              Révisions : {dueCount} en attente
             </span>
-          </div>
+            {dueCount > 0 && (
+              <span className="ml-auto inline-flex items-center justify-center h-5 min-w-5 px-1.5 rounded-full text-[10px] font-bold bg-violet-500/20 text-violet-400">
+                {dueCount}
+              </span>
+            )}
+          </Link>
         </div>
       )}
     </aside>

@@ -1,27 +1,76 @@
 "use client";
+
 import { useMemo, useState } from "react";
-import { QuizEngine, type QuizQuestion } from "@/components/practice/QuizEngine";
+import { QuizEngine } from "@/components/practice/QuizEngine";
+import { generateKanjiQuestions, generateVocabQuestions, generateGrammarQuestions } from "@/lib/quiz/generators";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Languages, BookOpen } from "lucide-react";
+import { Languages, BookOpen, PenTool, Type, ArrowLeftRight, BookMarked } from "lucide-react";
 import kanjiData from "@/data/n3/kanji.json";
 import vocabData from "@/data/n3/vocabulary.json";
+import grammarData from "@/data/n3/grammar.json";
 
-type QuizType = "kanji-meaning" | "vocab-meaning" | null;
-function shuffleArray<T>(arr: T[]): T[] { const s = [...arr]; for (let i = s.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [s[i], s[j]] = [s[j], s[i]]; } return s; }
-function genKanjiQ(count: number): QuizQuestion[] { const sh = shuffleArray(kanjiData).slice(0, count); return sh.map((k, i) => { const correct = k.meanings[0]; const wrong = shuffleArray(kanjiData.filter(x => x.kanji !== k.kanji).map(x => x.meanings[0])).slice(0, 3); const opts = shuffleArray([correct, ...wrong]); return { id: `k-${i}`, prompt: k.kanji, promptSub: "Signification ?", options: opts, correctIndex: opts.indexOf(correct) }; }); }
-function genVocabQ(count: number): QuizQuestion[] { const sh = shuffleArray(vocabData).slice(0, count); return sh.map((v, i) => { const correct = v.meaning; const wrong = shuffleArray(vocabData.filter(x => x.word !== v.word).map(x => x.meaning)).slice(0, 3); const opts = shuffleArray([correct, ...wrong]); return { id: `v-${i}`, prompt: v.word, promptSub: v.reading !== v.word ? v.reading : undefined, options: opts, correctIndex: opts.indexOf(correct) }; }); }
+type QuizType =
+  | "kanji-meaning" | "kanji-reading" | "meaning-kanji"
+  | "vocab-meaning" | "meaning-vocab" | "vocab-reading"
+  | "grammar-meaning" | "meaning-grammar"
+  | null;
+
+const QUIZ_TYPES: { id: QuizType; title: string; description: string; icon: typeof Languages; color: string; bgColor: string }[] = [
+  { id: "kanji-meaning", title: "Kanji → Sens", description: "Trouve le sens des kanji", icon: Languages, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "kanji-reading", title: "Kanji → Lecture", description: "Trouve la lecture des kanji", icon: Type, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "meaning-kanji", title: "Sens → Kanji", description: "Trouve le kanji correspondant", icon: ArrowLeftRight, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "vocab-meaning", title: "Mot → Sens", description: "Trouve le sens des mots", icon: BookOpen, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "meaning-vocab", title: "Sens → Mot", description: "Trouve le mot correspondant", icon: ArrowLeftRight, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "vocab-reading", title: "Mot → Lecture", description: "Trouve la lecture du mot", icon: Type, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "grammar-meaning", title: "Grammaire → Sens", description: "Trouve le sens du pattern", icon: PenTool, color: "text-emerald-400", bgColor: "bg-emerald-500/10" },
+  { id: "meaning-grammar", title: "Sens → Grammaire", description: "Trouve le point de grammaire", icon: BookMarked, color: "text-emerald-400", bgColor: "bg-emerald-500/10" },
+];
 
 export default function N3PracticePage() {
-  const [qt, setQt] = useState<QuizType>(null);
-  const questions = useMemo(() => { if (qt === "kanji-meaning") return genKanjiQ(10); if (qt === "vocab-meaning") return genVocabQ(10); return []; }, [qt]);
-  if (qt && questions.length > 0) return (<div className="max-w-lg mx-auto space-y-4"><Button variant="ghost" onClick={() => setQt(null)}>← Retour</Button><QuizEngine questions={questions} title={qt === "kanji-meaning" ? "Quiz Kanji N3" : "Quiz Vocab N3"} /></div>);
+  const [quizType, setQuizType] = useState<QuizType>(null);
+  const [quizKey, setQuizKey] = useState(0);
+
+  const questions = useMemo(() => {
+    switch (quizType) {
+      case "kanji-meaning": return generateKanjiQuestions(kanjiData, "n3", "kanji-meaning", 10);
+      case "kanji-reading": return generateKanjiQuestions(kanjiData, "n3", "kanji-reading", 10);
+      case "meaning-kanji": return generateKanjiQuestions(kanjiData, "n3", "meaning-kanji", 10);
+      case "vocab-meaning": return generateVocabQuestions(vocabData, "n3", "word-meaning", 10);
+      case "meaning-vocab": return generateVocabQuestions(vocabData, "n3", "meaning-word", 10);
+      case "vocab-reading": return generateVocabQuestions(vocabData, "n3", "word-reading", 10);
+      case "grammar-meaning": return generateGrammarQuestions(grammarData, "n3", "pattern-meaning", 10);
+      case "meaning-grammar": return generateGrammarQuestions(grammarData, "n3", "meaning-pattern", 10);
+      default: return [];
+    }
+  }, [quizType, quizKey]);
+
+  if (quizType && questions.length > 0) {
+    const qt = QUIZ_TYPES.find((t) => t.id === quizType);
+    return (
+      <div className="max-w-lg mx-auto space-y-4">
+        <Button variant="ghost" onClick={() => setQuizType(null)} className="text-muted-foreground">← Retour aux quiz</Button>
+        <QuizEngine key={quizKey} questions={questions} title={`Quiz N3 · ${qt?.title ?? ""}`} onComplete={() => setQuizKey((k) => k + 1)} />
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <div><h1 className="text-2xl font-bold tracking-tight">Pratique N3 <span className="text-muted-foreground font-normal text-lg">練習</span></h1></div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <Card className="group cursor-pointer border-border bg-card hover:border-violet-500/30 transition-all duration-200 hover:scale-[1.02]" onClick={() => setQt("kanji-meaning")}><CardContent className="p-6 space-y-3"><div className="h-10 w-10 rounded-lg bg-violet-500/10 flex items-center justify-center"><Languages className="h-5 w-5 text-violet-400" /></div><h3 className="text-lg font-semibold">Kanji → Sens</h3><p className="text-sm text-muted-foreground">Quiz kanji N3</p></CardContent></Card>
-        <Card className="group cursor-pointer border-border bg-card hover:border-violet-500/30 transition-all duration-200 hover:scale-[1.02]" onClick={() => setQt("vocab-meaning")}><CardContent className="p-6 space-y-3"><div className="h-10 w-10 rounded-lg bg-blue-500/10 flex items-center justify-center"><BookOpen className="h-5 w-5 text-blue-400" /></div><h3 className="text-lg font-semibold">Vocabulaire → Sens</h3><p className="text-sm text-muted-foreground">Quiz vocab N3</p></CardContent></Card>
+      <div>
+        <h1 className="text-2xl font-bold tracking-tight">Pratique N3 <span className="text-muted-foreground font-normal text-lg">練習</span></h1>
+        <p className="text-sm text-muted-foreground mt-1">Teste tes connaissances avec des quiz interactifs</p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {QUIZ_TYPES.map((qt) => (
+          <Card key={qt.id} className="group cursor-pointer border-border bg-card hover:border-violet-500/30 transition-all duration-200 hover:scale-[1.02]" onClick={() => { setQuizType(qt.id); setQuizKey((k) => k + 1); }}>
+            <CardContent className="p-6 space-y-3">
+              <div className={`h-10 w-10 rounded-lg ${qt.bgColor} flex items-center justify-center`}><qt.icon className={`h-5 w-5 ${qt.color}`} /></div>
+              <h3 className="text-lg font-semibold">{qt.title}</h3>
+              <p className="text-sm text-muted-foreground">{qt.description}</p>
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </div>
   );

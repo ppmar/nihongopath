@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,6 +8,8 @@ import { Progress } from "@/components/ui/progress";
 import { ConfettiExplosion } from "@/components/common/ConfettiExplosion";
 import { XPGainAnimation } from "@/components/gamification/XPGainAnimation";
 import { useGamificationStore } from "@/lib/stores/useGamificationStore";
+import { useProgressStore, type ItemType, type JlptLevel } from "@/lib/stores/useProgressStore";
+import { updateSRS, qualityFromCorrectness } from "@/lib/gamification/srs";
 import { XP_REWARDS } from "@/lib/gamification/xp";
 import { cn } from "@/lib/utils";
 import { Check, X, ArrowRight } from "lucide-react";
@@ -18,11 +20,15 @@ export type QuizQuestion = {
   promptSub?: string;
   options: string[];
   correctIndex: number;
+  itemType?: string;
+  itemId?: string;
+  jlptLevel?: string;
 };
 
 type QuizEngineProps = {
   questions: QuizQuestion[];
   title: string;
+  mode?: "practice" | "review";
   xpPerCorrect?: number;
   onComplete?: (correct: number, total: number) => void;
 };
@@ -30,6 +36,7 @@ type QuizEngineProps = {
 export function QuizEngine({
   questions,
   title,
+  mode = "practice",
   xpPerCorrect = XP_REWARDS.CORRECT_QUIZ,
   onComplete,
 }: QuizEngineProps) {
@@ -39,13 +46,65 @@ export function QuizEngine({
   const [correctCount, setCorrectCount] = useState(0);
   const [finished, setFinished] = useState(false);
   const [xpGain, setXpGain] = useState({ amount: 0, show: false });
+  const questionStartTime = useRef(Date.now());
 
   const { addXp, recordCorrectAnswer, recordIncorrectAnswer, recordActivity, incrementDaily } =
     useGamificationStore();
+  const { upsertItem, updateItemSRS, getItem } = useProgressStore();
 
   const question = questions[current];
   const isCorrect = selected === question?.correctIndex;
   const progress = ((current + (showResult ? 1 : 0)) / questions.length) * 100;
+
+  const handleSRS = useCallback(
+    (q: QuizQuestion, correct: boolean) => {
+      if (!q.itemType || !q.itemId || !q.jlptLevel) return;
+
+      const responseTime = Date.now() - questionStartTime.current;
+      const quality = qualityFromCorrectness(correct, responseTime);
+
+      const existing = getItem(q.itemType as ItemType, q.itemId);
+      const card = existing
+        ? { ease_factor: existing.easeFactor, interval_days: existing.intervalDays, review_count: existing.reviewCount }
+        : { ease_factor: 2.5, interval_days: 0, review_count: 0 };
+
+      const updated = updateSRS(card, quality);
+
+      // Determine status
+      let status: "learning" | "reviewing" | "mastered" = "learning";
+      if (updated.review_count >= 5 && updated.ease_factor >= 2.0) {
+        status = "mastered";
+      } else if (updated.review_count >= 1) {
+        status = "reviewing";
+      }
+
+      if (existing) {
+        updateItemSRS(q.itemType as ItemType, q.itemId, {
+          easeFactor: updated.ease_factor,
+          intervalDays: updated.interval_days,
+          nextReview: updated.next_review.toISOString(),
+          reviewCount: updated.review_count,
+          correctCount: existing.correctCount + (correct ? 1 : 0),
+        });
+        // Also update status
+        useProgressStore.getState().updateItemStatus(q.itemType as ItemType, q.itemId, status);
+      } else {
+        upsertItem({
+          itemType: q.itemType as ItemType,
+          itemId: q.itemId,
+          jlptLevel: q.jlptLevel as JlptLevel,
+          status,
+          easeFactor: updated.ease_factor,
+          intervalDays: updated.interval_days,
+          nextReview: updated.next_review.toISOString(),
+          reviewCount: updated.review_count,
+          correctCount: correct ? 1 : 0,
+          lastReviewed: new Date().toISOString(),
+        });
+      }
+    },
+    [getItem, updateItemSRS, upsertItem]
+  );
 
   const handleSelect = useCallback(
     (idx: number) => {
@@ -57,28 +116,47 @@ export function QuizEngine({
       if (correct) {
         setCorrectCount((c) => c + 1);
         recordCorrectAnswer();
-        const { leveledUp } = addXp(xpPerCorrect);
+        addXp(xpPerCorrect);
         setXpGain({ amount: xpPerCorrect, show: true });
         incrementDaily();
       } else {
         recordIncorrectAnswer();
       }
       recordActivity();
+
+      // SRS tracking
+      handleSRS(question, correct);
     },
-    [showResult, question, addXp, xpPerCorrect, recordCorrectAnswer, recordIncorrectAnswer, recordActivity, incrementDaily]
+    [showResult, question, addXp, xpPerCorrect, recordCorrectAnswer, recordIncorrectAnswer, recordActivity, incrementDaily, handleSRS]
   );
+
+  const syncMasteryCounts = useCallback(() => {
+    const state = useProgressStore.getState();
+    const gamification = useGamificationStore.getState();
+    const allItems = Object.values(state.items);
+
+    const kanjiMastered = allItems.filter((i) => i.itemType === "kanji" && i.status === "mastered").length;
+    const vocabMastered = allItems.filter((i) => i.itemType === "vocabulary" && i.status === "mastered").length;
+    const grammarLearned = allItems.filter((i) => i.itemType === "grammar" && i.status !== "new").length;
+
+    gamification.setKanjiMastered(kanjiMastered);
+    gamification.setVocabMastered(vocabMastered);
+    gamification.setGrammarLearned(grammarLearned);
+  }, []);
 
   const handleNext = useCallback(() => {
     if (current + 1 >= questions.length) {
       setFinished(true);
-      const { leveledUp } = addXp(XP_REWARDS.SESSION_COMPLETE);
+      addXp(XP_REWARDS.SESSION_COMPLETE);
+      syncMasteryCounts();
       onComplete?.(correctCount + (isCorrect ? 0 : 0), questions.length);
       return;
     }
     setCurrent((c) => c + 1);
     setSelected(null);
     setShowResult(false);
-  }, [current, questions.length, addXp, onComplete, correctCount, isCorrect]);
+    questionStartTime.current = Date.now();
+  }, [current, questions.length, addXp, onComplete, correctCount, isCorrect, syncMasteryCounts]);
 
   if (finished) {
     const finalCorrect = correctCount;
@@ -109,6 +187,11 @@ export function QuizEngine({
               <p className="text-sm text-muted-foreground">
                 {percent}% de bonnes réponses
               </p>
+              {mode === "review" && (
+                <p className="text-xs text-muted-foreground mt-2">
+                  Les items ont été mis à jour selon vos résultats.
+                </p>
+              )}
             </div>
             <Button
               onClick={() => {
@@ -117,6 +200,7 @@ export function QuizEngine({
                 setShowResult(false);
                 setCorrectCount(0);
                 setFinished(false);
+                questionStartTime.current = Date.now();
               }}
               className="bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500"
             >

@@ -1,91 +1,52 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { QuizEngine, type QuizQuestion } from "@/components/practice/QuizEngine";
+import { QuizEngine } from "@/components/practice/QuizEngine";
+import { generateKanjiQuestions, generateVocabQuestions, generateGrammarQuestions } from "@/lib/quiz/generators";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Languages, BookOpen, PenTool } from "lucide-react";
+import { Languages, BookOpen, PenTool, Type, ArrowLeftRight, BookMarked } from "lucide-react";
 import kanjiData from "@/data/n5/kanji.json";
 import vocabData from "@/data/n5/vocabulary.json";
+import grammarData from "@/data/n5/grammar.json";
 
-type QuizType = "kanji-meaning" | "vocab-meaning" | null;
+type QuizType =
+  | "kanji-meaning" | "kanji-reading" | "meaning-kanji"
+  | "vocab-meaning" | "meaning-vocab" | "vocab-reading"
+  | "grammar-meaning" | "meaning-grammar"
+  | null;
 
-function shuffleArray<T>(arr: T[]): T[] {
-  const shuffled = [...arr];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-function generateKanjiQuestions(count: number): QuizQuestion[] {
-  const shuffled = shuffleArray(kanjiData).slice(0, count);
-  return shuffled.map((kanji, idx) => {
-    const correctMeaning = kanji.meanings[0];
-    const otherMeanings = kanjiData
-      .filter((k) => k.kanji !== kanji.kanji)
-      .map((k) => k.meanings[0]);
-    const wrongOptions = shuffleArray(otherMeanings).slice(0, 3);
-    const options = shuffleArray([correctMeaning, ...wrongOptions]);
-    return {
-      id: `kanji-${idx}`,
-      prompt: kanji.kanji,
-      promptSub: "Quelle est la signification de ce kanji ?",
-      options,
-      correctIndex: options.indexOf(correctMeaning),
-    };
-  });
-}
-
-function generateVocabQuestions(count: number): QuizQuestion[] {
-  const shuffled = shuffleArray(vocabData).slice(0, count);
-  return shuffled.map((vocab, idx) => {
-    const correctMeaning = vocab.meaning;
-    const otherMeanings = vocabData
-      .filter((v) => v.word !== vocab.word)
-      .map((v) => v.meaning);
-    const wrongOptions = shuffleArray(otherMeanings).slice(0, 3);
-    const options = shuffleArray([correctMeaning, ...wrongOptions]);
-    return {
-      id: `vocab-${idx}`,
-      prompt: vocab.word,
-      promptSub: vocab.reading !== vocab.word ? vocab.reading : undefined,
-      options,
-      correctIndex: options.indexOf(correctMeaning),
-    };
-  });
-}
-
-const QUIZ_TYPES = [
-  {
-    id: "kanji-meaning" as QuizType,
-    title: "Kanji → Sens",
-    description: "Trouve le sens des kanji N5",
-    icon: Languages,
-    color: "text-violet-400",
-    bgColor: "bg-violet-500/10",
-  },
-  {
-    id: "vocab-meaning" as QuizType,
-    title: "Vocabulaire → Sens",
-    description: "Trouve le sens des mots N5",
-    icon: BookOpen,
-    color: "text-blue-400",
-    bgColor: "bg-blue-500/10",
-  },
+const QUIZ_TYPES: { id: QuizType; title: string; description: string; icon: typeof Languages; color: string; bgColor: string }[] = [
+  { id: "kanji-meaning", title: "Kanji → Sens", description: "Trouve le sens des kanji", icon: Languages, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "kanji-reading", title: "Kanji → Lecture", description: "Trouve la lecture des kanji", icon: Type, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "meaning-kanji", title: "Sens → Kanji", description: "Trouve le kanji correspondant", icon: ArrowLeftRight, color: "text-violet-400", bgColor: "bg-violet-500/10" },
+  { id: "vocab-meaning", title: "Mot → Sens", description: "Trouve le sens des mots", icon: BookOpen, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "meaning-vocab", title: "Sens → Mot", description: "Trouve le mot correspondant", icon: ArrowLeftRight, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "vocab-reading", title: "Mot → Lecture", description: "Trouve la lecture du mot", icon: Type, color: "text-blue-400", bgColor: "bg-blue-500/10" },
+  { id: "grammar-meaning", title: "Grammaire → Sens", description: "Trouve le sens du pattern", icon: PenTool, color: "text-emerald-400", bgColor: "bg-emerald-500/10" },
+  { id: "meaning-grammar", title: "Sens → Grammaire", description: "Trouve le point de grammaire", icon: BookMarked, color: "text-emerald-400", bgColor: "bg-emerald-500/10" },
 ];
 
 export default function N5PracticePage() {
   const [quizType, setQuizType] = useState<QuizType>(null);
+  const [quizKey, setQuizKey] = useState(0);
 
   const questions = useMemo(() => {
-    if (quizType === "kanji-meaning") return generateKanjiQuestions(10);
-    if (quizType === "vocab-meaning") return generateVocabQuestions(10);
-    return [];
-  }, [quizType]);
+    switch (quizType) {
+      case "kanji-meaning": return generateKanjiQuestions(kanjiData, "n5", "kanji-meaning", 10);
+      case "kanji-reading": return generateKanjiQuestions(kanjiData, "n5", "kanji-reading", 10);
+      case "meaning-kanji": return generateKanjiQuestions(kanjiData, "n5", "meaning-kanji", 10);
+      case "vocab-meaning": return generateVocabQuestions(vocabData, "n5", "word-meaning", 10);
+      case "meaning-vocab": return generateVocabQuestions(vocabData, "n5", "meaning-word", 10);
+      case "vocab-reading": return generateVocabQuestions(vocabData, "n5", "word-reading", 10);
+      case "grammar-meaning": return generateGrammarQuestions(grammarData, "n5", "pattern-meaning", 10);
+      case "meaning-grammar": return generateGrammarQuestions(grammarData, "n5", "meaning-pattern", 10);
+      default: return [];
+    }
+  }, [quizType, quizKey]);
 
   if (quizType && questions.length > 0) {
+    const qt = QUIZ_TYPES.find((t) => t.id === quizType);
     return (
       <div className="max-w-lg mx-auto space-y-4">
         <Button
@@ -96,8 +57,10 @@ export default function N5PracticePage() {
           ← Retour aux quiz
         </Button>
         <QuizEngine
+          key={quizKey}
           questions={questions}
-          title={quizType === "kanji-meaning" ? "Quiz Kanji N5" : "Quiz Vocabulaire N5"}
+          title={`Quiz N5 · ${qt?.title ?? ""}`}
+          onComplete={() => setQuizKey((k) => k + 1)}
         />
       </div>
     );
@@ -115,12 +78,12 @@ export default function N5PracticePage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {QUIZ_TYPES.map((qt) => (
           <Card
             key={qt.id}
             className="group cursor-pointer border-border bg-card hover:border-violet-500/30 transition-all duration-200 hover:scale-[1.02]"
-            onClick={() => setQuizType(qt.id)}
+            onClick={() => { setQuizType(qt.id); setQuizKey((k) => k + 1); }}
           >
             <CardContent className="p-6 space-y-3">
               <div className={`h-10 w-10 rounded-lg ${qt.bgColor} flex items-center justify-center`}>
