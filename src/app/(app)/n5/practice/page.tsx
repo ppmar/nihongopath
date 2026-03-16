@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { QuizEngine } from "@/components/practice/QuizEngine";
+import { useState, useCallback } from "react";
+import { QuizEngine, type QuizQuestion } from "@/components/practice/QuizEngine";
 import { generateKanjiQuestions, generateVocabQuestions, generateGrammarQuestions } from "@/lib/quiz/generators";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -27,40 +27,43 @@ const QUIZ_TYPES: { id: QuizType; title: string; description: string; icon: type
   { id: "meaning-grammar", title: "Sens → Grammaire", description: "Trouve le point de grammaire", icon: BookMarked, color: "text-emerald-400", bgColor: "bg-emerald-500/10" },
 ];
 
+function generateQuestions(type: QuizType): QuizQuestion[] {
+  switch (type) {
+    case "kanji-meaning": return generateKanjiQuestions(kanjiData, "n5", "kanji-meaning", 10);
+    case "kanji-reading": return generateKanjiQuestions(kanjiData, "n5", "kanji-reading", 10);
+    case "meaning-kanji": return generateKanjiQuestions(kanjiData, "n5", "meaning-kanji", 10);
+    case "vocab-meaning": return generateVocabQuestions(vocabData, "n5", "word-meaning", 10);
+    case "meaning-vocab": return generateVocabQuestions(vocabData, "n5", "meaning-word", 10);
+    case "vocab-reading": return generateVocabQuestions(vocabData, "n5", "word-reading", 10);
+    case "grammar-meaning": return generateGrammarQuestions(grammarData, "n5", "pattern-meaning", 10);
+    case "meaning-grammar": return generateGrammarQuestions(grammarData, "n5", "meaning-pattern", 10);
+    default: return [];
+  }
+}
+
 export default function N5PracticePage() {
   const [quizType, setQuizType] = useState<QuizType>(null);
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [quizKey, setQuizKey] = useState(0);
 
-  const questions = useMemo(() => {
-    switch (quizType) {
-      case "kanji-meaning": return generateKanjiQuestions(kanjiData, "n5", "kanji-meaning", 10);
-      case "kanji-reading": return generateKanjiQuestions(kanjiData, "n5", "kanji-reading", 10);
-      case "meaning-kanji": return generateKanjiQuestions(kanjiData, "n5", "meaning-kanji", 10);
-      case "vocab-meaning": return generateVocabQuestions(vocabData, "n5", "word-meaning", 10);
-      case "meaning-vocab": return generateVocabQuestions(vocabData, "n5", "meaning-word", 10);
-      case "vocab-reading": return generateVocabQuestions(vocabData, "n5", "word-reading", 10);
-      case "grammar-meaning": return generateGrammarQuestions(grammarData, "n5", "pattern-meaning", 10);
-      case "meaning-grammar": return generateGrammarQuestions(grammarData, "n5", "meaning-pattern", 10);
-      default: return [];
-    }
-  }, [quizType, quizKey]);
+  const startQuiz = useCallback((type: QuizType) => {
+    setQuizType(type);
+    setQuestions(generateQuestions(type));
+    setQuizKey((k) => k + 1);
+  }, []);
 
   if (quizType && questions.length > 0) {
     const qt = QUIZ_TYPES.find((t) => t.id === quizType);
     return (
       <div className="max-w-lg mx-auto space-y-4">
-        <Button
-          variant="ghost"
-          onClick={() => setQuizType(null)}
-          className="text-muted-foreground"
-        >
+        <Button variant="ghost" onClick={() => setQuizType(null)} className="text-muted-foreground">
           ← Retour aux quiz
         </Button>
         <QuizEngine
           key={quizKey}
           questions={questions}
           title={`Quiz N5 · ${qt?.title ?? ""}`}
-          onComplete={() => setQuizKey((k) => k + 1)}
+          onComplete={() => startQuiz(quizType)}
         />
       </div>
     );
@@ -77,13 +80,12 @@ export default function N5PracticePage() {
           Teste tes connaissances avec des quiz interactifs
         </p>
       </div>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {QUIZ_TYPES.map((qt) => (
           <Card
             key={qt.id}
             className="group cursor-pointer border-border bg-card hover:border-violet-500/30 transition-all duration-200 hover:scale-[1.02]"
-            onClick={() => { setQuizType(qt.id); setQuizKey((k) => k + 1); }}
+            onClick={() => startQuiz(qt.id)}
           >
             <CardContent className="p-6 space-y-3">
               <div className={`h-10 w-10 rounded-lg ${qt.bgColor} flex items-center justify-center`}>

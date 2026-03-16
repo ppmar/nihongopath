@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { QuizEngine } from "@/components/practice/QuizEngine";
+import { useState, useCallback } from "react";
+import { QuizEngine, type QuizQuestion } from "@/components/practice/QuizEngine";
 import { generateReviewQuestions } from "@/lib/quiz/generators";
 import { useProgressStore } from "@/lib/stores/useProgressStore";
 import { Button } from "@/components/ui/button";
@@ -54,32 +54,65 @@ const ALL_DATA = {
 };
 
 export default function ReviewPage() {
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [quizKey, setQuizKey] = useState(0);
-  const dueItems = useProgressStore((s) => s.getItemsDueForReview());
+  const [started, setStarted] = useState(false);
+  const dueCount = useProgressStore((s) => s.getItemsDueForReview().length);
 
-  const questions = useMemo(
-    () => generateReviewQuestions(dueItems, ALL_DATA, 20),
-    [dueItems, quizKey]
-  );
+  const startReview = useCallback(() => {
+    const dueItems = useProgressStore.getState().getItemsDueForReview();
+    const q = generateReviewQuestions(dueItems, ALL_DATA, 20);
+    setQuestions(q);
+    setQuizKey((k) => k + 1);
+    setStarted(true);
+  }, []);
 
-  if (dueItems.length === 0 || questions.length === 0) {
+  if (!started || questions.length === 0) {
+    if (dueCount === 0) {
+      return (
+        <div className="max-w-lg mx-auto">
+          <Card className="border-border bg-card">
+            <CardContent className="p-8 text-center space-y-6">
+              <motion.div
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ type: "spring", damping: 15 }}
+              >
+                <CheckCircle2 className="h-16 w-16 text-emerald-400 mx-auto" />
+              </motion.div>
+              <div className="space-y-2">
+                <h1 className="text-2xl font-bold tracking-tight">Aucune révision en attente</h1>
+                <p className="text-muted-foreground">
+                  Toutes tes révisions sont à jour. Continue d&apos;apprendre pour ajouter de nouveaux items à réviser !
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      );
+    }
+
     return (
       <div className="max-w-lg mx-auto">
         <Card className="border-border bg-card">
           <CardContent className="p-8 text-center space-y-6">
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: "spring", damping: 15 }}
-            >
-              <CheckCircle2 className="h-16 w-16 text-emerald-400 mx-auto" />
-            </motion.div>
+            <RotateCw className="h-12 w-12 text-violet-400 mx-auto" />
             <div className="space-y-2">
-              <h1 className="text-2xl font-bold tracking-tight">Aucune révision en attente</h1>
+              <h1 className="text-2xl font-bold tracking-tight">
+                Révisions{" "}
+                <span className="text-muted-foreground font-normal text-lg">復習</span>
+              </h1>
               <p className="text-muted-foreground">
-                Toutes tes révisions sont à jour. Continue d&apos;apprendre pour ajouter de nouveaux items à réviser !
+                {dueCount} item{dueCount > 1 ? "s" : ""} à réviser · Les plus faibles en premier
               </p>
             </div>
+            <Button
+              onClick={startReview}
+              className="gap-2 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500"
+            >
+              <RotateCw className="h-4 w-4" />
+              Commencer les révisions
+            </Button>
           </CardContent>
         </Card>
       </div>
@@ -94,14 +127,11 @@ export default function ReviewPage() {
             Révisions{" "}
             <span className="text-muted-foreground font-normal text-lg">復習</span>
           </h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            {dueItems.length} item{dueItems.length > 1 ? "s" : ""} à réviser · Les plus faibles en premier
-          </p>
         </div>
         <Button
           variant="ghost"
           size="icon"
-          onClick={() => setQuizKey((k) => k + 1)}
+          onClick={startReview}
           className="text-muted-foreground"
           title="Relancer"
         >
@@ -113,7 +143,7 @@ export default function ReviewPage() {
         questions={questions}
         title="Révisions SRS"
         mode="review"
-        onComplete={() => setQuizKey((k) => k + 1)}
+        onComplete={startReview}
       />
     </div>
   );
